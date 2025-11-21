@@ -4,10 +4,10 @@
     url: /sso/login
     method: post
     header:
-      Content-Type: application/x-www-form-urlencoded;charset=UTF-8
+      Content-Type: application/json;charset=UTF-8
   testCase:
     - case_name: 正常登录_获取token
-      data:
+      json:
         username: "member"      # 替换成实际用户名
         password: "member123"    # 替换成实际密码
       validation:

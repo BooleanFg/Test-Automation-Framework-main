@@ -12,19 +12,25 @@ class TestMallPortalBasic:
     流程包括：会员登录 → 获取首页推荐商品列表 → 查询商品详情。
     """
 
-    @allure.story(next(c_id) + '登录 + 推荐商品 + 商品详情')
-    @pytest.mark.parametrize(
-        'base_info, testcase',
-        get_testcase_yaml('./testcase/mall_portal/mall_logging.yaml')
-    )
-    def test_mall_portal_flow(self, base_info, testcase):
-        """
-        根据 YAML 定义的 baseInfo 和 testCase 执行接口请求。
-        """
-        # 动态设置用例标题，方便 Allure 报告展示
+    @allure.story(next(c_id) + "用户登录")
+    @pytest.mark.run(order=1)
+    @pytest.mark.parametrize('base_info,testcase', get_testcase_yaml('./testcase/mall_portal/mall_logging.yaml'))
+    def test_logging(self, base_info, testcase):
         allure.dynamic.title(testcase['case_name'])
+        RequestBase().specification_yaml(base_info, testcase)
 
-        # 调用框架核心方法，根据 YAML 组合请求、断言和提取变量
+    @allure.story(next(c_id) + "推荐商品列表")
+    @pytest.mark.run(order=2)
+    @pytest.mark.parametrize('base_info,testcase', get_testcase_yaml('./testcase/mall_portal/mall_list.yaml'))
+    def test_logging(self, base_info, testcase):
+        allure.dynamic.title(testcase['case_name'])
+        RequestBase().specification_yaml(base_info, testcase)
+
+    @allure.story(next(c_id) + "商品细节")
+    @pytest.mark.run(order=3)
+    @pytest.mark.parametrize('base_info,testcase', get_testcase_yaml('./testcase/mall_detail/mall_logging.yaml'))
+    def test_logging(self, base_info, testcase):
+        allure.dynamic.title(testcase['case_name'])
         RequestBase().specification_yaml(base_info, testcase)
 
 
