@@ -1,0 +1,25 @@
+# 1. 会员登录：提交用户名和密码，获取 token
+- baseInfo:
+    api_name: 用户登录
+    url: /sso/login
+    method: post
+    header:
+      Content-Type: application/x-www-form-urlencoded;charset=UTF-8
+  testCase:
+    - case_name: 正常登录_获取token
+      data:
+        username: "member"      # 替换成实际用户名
+        password: "member123"    # 替换成实际密码
+      validation:
+        - contains: { 'code': 200 }      # 响应状态码为 200 表示成功
+      extract:
+        token: $.data.token              # 提取返回数据中的 token
+        tokenHead: $.data.tokenHead      # 提取返回数据中的 tokenHead，通常是 "Bearer" 前缀
+
+
+
+
+
+
+
+

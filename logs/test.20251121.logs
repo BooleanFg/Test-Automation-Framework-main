@@ -1,0 +1,430 @@
+INFO - 2025-11-21 14:10:32,896 - sendrequest.py:135 -[sendrequest:run_main] - 接口名称：用户登录
+INFO - 2025-11-21 14:10:32,896 - sendrequest.py:136 -[sendrequest:run_main] - 请求地址：http://124.222.183.96:8085/dar/user/login
+INFO - 2025-11-21 14:10:32,896 - sendrequest.py:137 -[sendrequest:run_main] - 请求方式：post
+INFO - 2025-11-21 14:10:32,897 - sendrequest.py:138 -[sendrequest:run_main] - 测试用例名称：用户名和密码正确登录验证
+INFO - 2025-11-21 14:10:32,897 - sendrequest.py:139 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2025-11-21 14:10:32,897 - sendrequest.py:140 -[sendrequest:run_main] - Cookie：None
+INFO - 2025-11-21 14:10:32,898 - sendrequest.py:144 -[sendrequest:run_main] - 请求参数：{'data': {'user_name': 'test01', 'passwd': 'admin123'}}
+INFO - 2025-11-21 14:10:33,006 - sendrequest.py:108 -[sendrequest:send_request] - 接口返回信息：{"timestamp":"2025-11-21T06:10:32.384+00:00","status":404,"error":"Not Found","path":"/dar/user/login"}
+ERROR - 2025-11-21 14:10:33,007 - apiutil.py:159 -[apiutil:extract_data] - 'bool' object is not subscriptable
+INFO - 2025-11-21 14:10:33,007 - assertions.py:170 -[assertions:assert_result] - yaml文件预期结果：[{'contains': {'error_code': 'none'}}, {'eq': {'msg': '登录成功'}}]
+ERROR - 2025-11-21 14:10:33,007 - assertions.py:194 -[assertions:assert_result] - 接口断言异常，请检查yaml预期结果值是否正确填写!
+ERROR - 2025-11-21 14:10:33,008 - apiutil.py:115 -[apiutil:specification_yaml] - 'bool' object is not subscriptable
+ERROR - 2025-11-21 14:10:33,008 - conftest.py:32 -[conftest:system_login] - 登录接口出现异常，导致后续接口无法继续运行，请检查程序！，'bool' object is not subscriptable
+INFO - 2025-11-21 14:10:33,456 - sendrequest.py:135 -[sendrequest:run_main] - 接口名称：用户登录
+INFO - 2025-11-21 14:10:33,456 - sendrequest.py:136 -[sendrequest:run_main] - 请求地址：http://124.222.183.96:8085/dar/user/login
+INFO - 2025-11-21 14:10:33,456 - sendrequest.py:137 -[sendrequest:run_main] - 请求方式：post
+INFO - 2025-11-21 14:10:33,456 - sendrequest.py:138 -[sendrequest:run_main] - 测试用例名称：用户名和密码正确登录验证
+INFO - 2025-11-21 14:10:33,457 - sendrequest.py:139 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2025-11-21 14:10:33,457 - sendrequest.py:140 -[sendrequest:run_main] - Cookie：None
+INFO - 2025-11-21 14:10:33,457 - sendrequest.py:144 -[sendrequest:run_main] - 请求参数：{'data': {'user_name': 'test01', 'passwd': 'admin123'}}
+INFO - 2025-11-21 14:10:33,492 - sendrequest.py:108 -[sendrequest:send_request] - 接口返回信息：{"timestamp":"2025-11-21T06:10:32.872+00:00","status":404,"error":"Not Found","path":"/dar/user/login"}
+ERROR - 2025-11-21 14:10:33,493 - apiutil.py:159 -[apiutil:extract_data] - 'bool' object is not subscriptable
+INFO - 2025-11-21 14:10:33,493 - assertions.py:170 -[assertions:assert_result] - yaml文件预期结果：[{'contains': {'error_code': 'none'}}, {'eq': {'msg': '登录成功'}}]
+ERROR - 2025-11-21 14:10:33,493 - assertions.py:194 -[assertions:assert_result] - 接口断言异常，请检查yaml预期结果值是否正确填写!
+ERROR - 2025-11-21 14:10:33,493 - apiutil.py:115 -[apiutil:specification_yaml] - 'bool' object is not subscriptable
+ERROR - 2025-11-21 14:10:33,493 - conftest.py:32 -[conftest:system_login] - 登录接口出现异常，导致后续接口无法继续运行，请检查程序！，'bool' object is not subscriptable
+INFO - 2025-11-21 14:10:33,525 - sendrequest.py:135 -[sendrequest:run_main] - 接口名称：用户登录
+INFO - 2025-11-21 14:10:33,525 - sendrequest.py:136 -[sendrequest:run_main] - 请求地址：http://124.222.183.96:8085/dar/user/login
+INFO - 2025-11-21 14:10:33,525 - sendrequest.py:137 -[sendrequest:run_main] - 请求方式：post
+INFO - 2025-11-21 14:10:33,526 - sendrequest.py:138 -[sendrequest:run_main] - 测试用例名称：用户名和密码正确登录验证
+INFO - 2025-11-21 14:10:33,526 - sendrequest.py:139 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2025-11-21 14:10:33,526 - sendrequest.py:140 -[sendrequest:run_main] - Cookie：None
+INFO - 2025-11-21 14:10:33,526 - sendrequest.py:144 -[sendrequest:run_main] - 请求参数：{'data': {'user_name': 'test01', 'passwd': 'admin123'}}
+INFO - 2025-11-21 14:10:33,588 - sendrequest.py:108 -[sendrequest:send_request] - 接口返回信息：{"timestamp":"2025-11-21T06:10:32.967+00:00","status":404,"error":"Not Found","path":"/dar/user/login"}
+ERROR - 2025-11-21 14:10:33,588 - apiutil.py:159 -[apiutil:extract_data] - 'bool' object is not subscriptable
+INFO - 2025-11-21 14:10:33,589 - assertions.py:170 -[assertions:assert_result] - yaml文件预期结果：[{'contains': {'error_code': 'none'}}, {'eq': {'msg': '登录成功'}}]
+ERROR - 2025-11-21 14:10:33,589 - assertions.py:194 -[assertions:assert_result] - 接口断言异常，请检查yaml预期结果值是否正确填写!
+ERROR - 2025-11-21 14:10:33,589 - apiutil.py:115 -[apiutil:specification_yaml] - 'bool' object is not subscriptable
+ERROR - 2025-11-21 14:10:33,589 - conftest.py:32 -[conftest:system_login] - 登录接口出现异常，导致后续接口无法继续运行，请检查程序！，'bool' object is not subscriptable
+INFO - 2025-11-21 14:10:33,620 - sendrequest.py:135 -[sendrequest:run_main] - 接口名称：用户登录
+INFO - 2025-11-21 14:10:33,621 - sendrequest.py:136 -[sendrequest:run_main] - 请求地址：http://124.222.183.96:8085/dar/user/login
+INFO - 2025-11-21 14:10:33,621 - sendrequest.py:137 -[sendrequest:run_main] - 请求方式：post
+INFO - 2025-11-21 14:10:33,621 - sendrequest.py:138 -[sendrequest:run_main] - 测试用例名称：用户名和密码正确登录验证
+INFO - 2025-11-21 14:10:33,621 - sendrequest.py:139 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2025-11-21 14:10:33,621 - sendrequest.py:140 -[sendrequest:run_main] - Cookie：None
+INFO - 2025-11-21 14:10:33,622 - sendrequest.py:144 -[sendrequest:run_main] - 请求参数：{'data': {'user_name': 'test01', 'passwd': 'admin123'}}
+INFO - 2025-11-21 14:10:33,657 - sendrequest.py:108 -[sendrequest:send_request] - 接口返回信息：{"timestamp":"2025-11-21T06:10:33.037+00:00","status":404,"error":"Not Found","path":"/dar/user/login"}
+ERROR - 2025-11-21 14:10:33,658 - apiutil.py:159 -[apiutil:extract_data] - 'bool' object is not subscriptable
+INFO - 2025-11-21 14:10:33,658 - assertions.py:170 -[assertions:assert_result] - yaml文件预期结果：[{'contains': {'error_code': 'none'}}, {'eq': {'msg': '登录成功'}}]
+ERROR - 2025-11-21 14:10:33,658 - assertions.py:194 -[assertions:assert_result] - 接口断言异常，请检查yaml预期结果值是否正确填写!
+ERROR - 2025-11-21 14:10:33,659 - apiutil.py:115 -[apiutil:specification_yaml] - 'bool' object is not subscriptable
+ERROR - 2025-11-21 14:10:33,659 - conftest.py:32 -[conftest:system_login] - 登录接口出现异常，导致后续接口无法继续运行，请检查程序！，'bool' object is not subscriptable
+INFO - 2025-11-21 14:10:33,692 - sendrequest.py:135 -[sendrequest:run_main] - 接口名称：用户登录
+INFO - 2025-11-21 14:10:33,692 - sendrequest.py:136 -[sendrequest:run_main] - 请求地址：http://124.222.183.96:8085/dar/user/login
+INFO - 2025-11-21 14:10:33,692 - sendrequest.py:137 -[sendrequest:run_main] - 请求方式：post
+INFO - 2025-11-21 14:10:33,692 - sendrequest.py:138 -[sendrequest:run_main] - 测试用例名称：用户名和密码正确登录验证
+INFO - 2025-11-21 14:10:33,692 - sendrequest.py:139 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2025-11-21 14:10:33,692 - sendrequest.py:140 -[sendrequest:run_main] - Cookie：None
+INFO - 2025-11-21 14:10:33,693 - sendrequest.py:144 -[sendrequest:run_main] - 请求参数：{'data': {'user_name': 'test01', 'passwd': 'admin123'}}
+INFO - 2025-11-21 14:10:33,727 - sendrequest.py:108 -[sendrequest:send_request] - 接口返回信息：{"timestamp":"2025-11-21T06:10:33.107+00:00","status":404,"error":"Not Found","path":"/dar/user/login"}
+ERROR - 2025-11-21 14:10:33,727 - apiutil.py:159 -[apiutil:extract_data] - 'bool' object is not subscriptable
+INFO - 2025-11-21 14:10:33,727 - assertions.py:170 -[assertions:assert_result] - yaml文件预期结果：[{'contains': {'error_code': 'none'}}, {'eq': {'msg': '登录成功'}}]
+ERROR - 2025-11-21 14:10:33,728 - assertions.py:194 -[assertions:assert_result] - 接口断言异常，请检查yaml预期结果值是否正确填写!
+ERROR - 2025-11-21 14:10:33,728 - apiutil.py:115 -[apiutil:specification_yaml] - 'bool' object is not subscriptable
+ERROR - 2025-11-21 14:10:33,728 - conftest.py:32 -[conftest:system_login] - 登录接口出现异常，导致后续接口无法继续运行，请检查程序！，'bool' object is not subscriptable
+INFO - 2025-11-21 14:10:33,762 - sendrequest.py:135 -[sendrequest:run_main] - 接口名称：用户登录
+INFO - 2025-11-21 14:10:33,763 - sendrequest.py:136 -[sendrequest:run_main] - 请求地址：http://124.222.183.96:8085/dar/user/login
+INFO - 2025-11-21 14:10:33,763 - sendrequest.py:137 -[sendrequest:run_main] - 请求方式：post
+INFO - 2025-11-21 14:10:33,763 - sendrequest.py:138 -[sendrequest:run_main] - 测试用例名称：用户名和密码正确登录验证
+INFO - 2025-11-21 14:10:33,763 - sendrequest.py:139 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2025-11-21 14:10:33,763 - sendrequest.py:140 -[sendrequest:run_main] - Cookie：None
+INFO - 2025-11-21 14:10:33,763 - sendrequest.py:144 -[sendrequest:run_main] - 请求参数：{'data': {'user_name': 'test01', 'passwd': 'admin123'}}
+INFO - 2025-11-21 14:10:33,802 - sendrequest.py:108 -[sendrequest:send_request] - 接口返回信息：{"timestamp":"2025-11-21T06:10:33.176+00:00","status":404,"error":"Not Found","path":"/dar/user/login"}
+ERROR - 2025-11-21 14:10:33,803 - apiutil.py:159 -[apiutil:extract_data] - 'bool' object is not subscriptable
+INFO - 2025-11-21 14:10:33,803 - assertions.py:170 -[assertions:assert_result] - yaml文件预期结果：[{'contains': {'error_code': 'none'}}, {'eq': {'msg': '登录成功'}}]
+ERROR - 2025-11-21 14:10:33,803 - assertions.py:194 -[assertions:assert_result] - 接口断言异常，请检查yaml预期结果值是否正确填写!
+ERROR - 2025-11-21 14:10:33,803 - apiutil.py:115 -[apiutil:specification_yaml] - 'bool' object is not subscriptable
+ERROR - 2025-11-21 14:10:33,803 - conftest.py:32 -[conftest:system_login] - 登录接口出现异常，导致后续接口无法继续运行，请检查程序！，'bool' object is not subscriptable
+INFO - 2025-11-21 14:10:33,837 - sendrequest.py:135 -[sendrequest:run_main] - 接口名称：用户登录
+INFO - 2025-11-21 14:10:33,837 - sendrequest.py:136 -[sendrequest:run_main] - 请求地址：http://124.222.183.96:8085/dar/user/login
+INFO - 2025-11-21 14:10:33,838 - sendrequest.py:137 -[sendrequest:run_main] - 请求方式：post
+INFO - 2025-11-21 14:10:33,838 - sendrequest.py:138 -[sendrequest:run_main] - 测试用例名称：用户名和密码正确登录验证
+INFO - 2025-11-21 14:10:33,838 - sendrequest.py:139 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2025-11-21 14:10:33,838 - sendrequest.py:140 -[sendrequest:run_main] - Cookie：None
+INFO - 2025-11-21 14:10:33,839 - sendrequest.py:144 -[sendrequest:run_main] - 请求参数：{'data': {'user_name': 'test01', 'passwd': 'admin123'}}
+INFO - 2025-11-21 14:10:33,872 - sendrequest.py:108 -[sendrequest:send_request] - 接口返回信息：{"timestamp":"2025-11-21T06:10:33.252+00:00","status":404,"error":"Not Found","path":"/dar/user/login"}
+ERROR - 2025-11-21 14:10:33,873 - apiutil.py:159 -[apiutil:extract_data] - 'bool' object is not subscriptable
+INFO - 2025-11-21 14:10:33,873 - assertions.py:170 -[assertions:assert_result] - yaml文件预期结果：[{'contains': {'error_code': 'none'}}, {'eq': {'msg': '登录成功'}}]
+ERROR - 2025-11-21 14:10:33,873 - assertions.py:194 -[assertions:assert_result] - 接口断言异常，请检查yaml预期结果值是否正确填写!
+ERROR - 2025-11-21 14:10:33,873 - apiutil.py:115 -[apiutil:specification_yaml] - 'bool' object is not subscriptable
+ERROR - 2025-11-21 14:10:33,873 - conftest.py:32 -[conftest:system_login] - 登录接口出现异常，导致后续接口无法继续运行，请检查程序！，'bool' object is not subscriptable
+INFO - 2025-11-21 14:10:33,908 - sendrequest.py:135 -[sendrequest:run_main] - 接口名称：用户登录
+INFO - 2025-11-21 14:10:33,908 - sendrequest.py:136 -[sendrequest:run_main] - 请求地址：http://124.222.183.96:8085/dar/user/login
+INFO - 2025-11-21 14:10:33,910 - sendrequest.py:137 -[sendrequest:run_main] - 请求方式：post
+INFO - 2025-11-21 14:10:33,910 - sendrequest.py:138 -[sendrequest:run_main] - 测试用例名称：用户名和密码正确登录验证
+INFO - 2025-11-21 14:10:33,910 - sendrequest.py:139 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2025-11-21 14:10:33,910 - sendrequest.py:140 -[sendrequest:run_main] - Cookie：None
+INFO - 2025-11-21 14:10:33,911 - sendrequest.py:144 -[sendrequest:run_main] - 请求参数：{'data': {'user_name': 'test01', 'passwd': 'admin123'}}
+INFO - 2025-11-21 14:10:33,952 - sendrequest.py:108 -[sendrequest:send_request] - 接口返回信息：{"timestamp":"2025-11-21T06:10:33.331+00:00","status":404,"error":"Not Found","path":"/dar/user/login"}
+ERROR - 2025-11-21 14:10:33,953 - apiutil.py:159 -[apiutil:extract_data] - 'bool' object is not subscriptable
+INFO - 2025-11-21 14:10:33,953 - assertions.py:170 -[assertions:assert_result] - yaml文件预期结果：[{'contains': {'error_code': 'none'}}, {'eq': {'msg': '登录成功'}}]
+ERROR - 2025-11-21 14:10:33,953 - assertions.py:194 -[assertions:assert_result] - 接口断言异常，请检查yaml预期结果值是否正确填写!
+ERROR - 2025-11-21 14:10:33,953 - apiutil.py:115 -[apiutil:specification_yaml] - 'bool' object is not subscriptable
+ERROR - 2025-11-21 14:10:33,954 - conftest.py:32 -[conftest:system_login] - 登录接口出现异常，导致后续接口无法继续运行，请检查程序！，'bool' object is not subscriptable
+INFO - 2025-11-21 14:10:33,986 - sendrequest.py:135 -[sendrequest:run_main] - 接口名称：用户登录
+INFO - 2025-11-21 14:10:33,986 - sendrequest.py:136 -[sendrequest:run_main] - 请求地址：http://124.222.183.96:8085/dar/user/login
+INFO - 2025-11-21 14:10:33,986 - sendrequest.py:137 -[sendrequest:run_main] - 请求方式：post
+INFO - 2025-11-21 14:10:33,986 - sendrequest.py:138 -[sendrequest:run_main] - 测试用例名称：用户名和密码正确登录验证
+INFO - 2025-11-21 14:10:33,988 - sendrequest.py:139 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2025-11-21 14:10:33,988 - sendrequest.py:140 -[sendrequest:run_main] - Cookie：None
+INFO - 2025-11-21 14:10:33,989 - sendrequest.py:144 -[sendrequest:run_main] - 请求参数：{'data': {'user_name': 'test01', 'passwd': 'admin123'}}
+INFO - 2025-11-21 14:10:34,034 - sendrequest.py:108 -[sendrequest:send_request] - 接口返回信息：{"timestamp":"2025-11-21T06:10:33.402+00:00","status":404,"error":"Not Found","path":"/dar/user/login"}
+ERROR - 2025-11-21 14:10:34,035 - apiutil.py:159 -[apiutil:extract_data] - 'bool' object is not subscriptable
+INFO - 2025-11-21 14:10:34,035 - assertions.py:170 -[assertions:assert_result] - yaml文件预期结果：[{'contains': {'error_code': 'none'}}, {'eq': {'msg': '登录成功'}}]
+ERROR - 2025-11-21 14:10:34,035 - assertions.py:194 -[assertions:assert_result] - 接口断言异常，请检查yaml预期结果值是否正确填写!
+ERROR - 2025-11-21 14:10:34,035 - apiutil.py:115 -[apiutil:specification_yaml] - 'bool' object is not subscriptable
+ERROR - 2025-11-21 14:10:34,035 - conftest.py:32 -[conftest:system_login] - 登录接口出现异常，导致后续接口无法继续运行，请检查程序！，'bool' object is not subscriptable
+INFO - 2025-11-21 14:10:34,071 - sendrequest.py:135 -[sendrequest:run_main] - 接口名称：用户登录
+INFO - 2025-11-21 14:10:34,071 - sendrequest.py:136 -[sendrequest:run_main] - 请求地址：http://124.222.183.96:8085/dar/user/login
+INFO - 2025-11-21 14:10:34,071 - sendrequest.py:137 -[sendrequest:run_main] - 请求方式：post
+INFO - 2025-11-21 14:10:34,071 - sendrequest.py:138 -[sendrequest:run_main] - 测试用例名称：用户名和密码正确登录验证
+INFO - 2025-11-21 14:10:34,071 - sendrequest.py:139 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2025-11-21 14:10:34,071 - sendrequest.py:140 -[sendrequest:run_main] - Cookie：None
+INFO - 2025-11-21 14:10:34,073 - sendrequest.py:144 -[sendrequest:run_main] - 请求参数：{'data': {'user_name': 'test01', 'passwd': 'admin123'}}
+INFO - 2025-11-21 14:10:34,109 - sendrequest.py:108 -[sendrequest:send_request] - 接口返回信息：{"timestamp":"2025-11-21T06:10:33.489+00:00","status":404,"error":"Not Found","path":"/dar/user/login"}
+ERROR - 2025-11-21 14:10:34,110 - apiutil.py:159 -[apiutil:extract_data] - 'bool' object is not subscriptable
+INFO - 2025-11-21 14:10:34,110 - assertions.py:170 -[assertions:assert_result] - yaml文件预期结果：[{'contains': {'error_code': 'none'}}, {'eq': {'msg': '登录成功'}}]
+ERROR - 2025-11-21 14:10:34,110 - assertions.py:194 -[assertions:assert_result] - 接口断言异常，请检查yaml预期结果值是否正确填写!
+ERROR - 2025-11-21 14:10:34,110 - apiutil.py:115 -[apiutil:specification_yaml] - 'bool' object is not subscriptable
+ERROR - 2025-11-21 14:10:34,110 - conftest.py:32 -[conftest:system_login] - 登录接口出现异常，导致后续接口无法继续运行，请检查程序！，'bool' object is not subscriptable
+INFO - 2025-11-21 14:10:34,147 - sendrequest.py:135 -[sendrequest:run_main] - 接口名称：用户登录
+INFO - 2025-11-21 14:10:34,147 - sendrequest.py:136 -[sendrequest:run_main] - 请求地址：http://124.222.183.96:8085/dar/user/login
+INFO - 2025-11-21 14:10:34,147 - sendrequest.py:137 -[sendrequest:run_main] - 请求方式：post
+INFO - 2025-11-21 14:10:34,147 - sendrequest.py:138 -[sendrequest:run_main] - 测试用例名称：用户名和密码正确登录验证
+INFO - 2025-11-21 14:10:34,148 - sendrequest.py:139 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2025-11-21 14:10:34,148 - sendrequest.py:140 -[sendrequest:run_main] - Cookie：None
+INFO - 2025-11-21 14:10:34,148 - sendrequest.py:144 -[sendrequest:run_main] - 请求参数：{'data': {'user_name': 'test01', 'passwd': 'admin123'}}
+INFO - 2025-11-21 14:10:34,185 - sendrequest.py:108 -[sendrequest:send_request] - 接口返回信息：{"timestamp":"2025-11-21T06:10:33.563+00:00","status":404,"error":"Not Found","path":"/dar/user/login"}
+ERROR - 2025-11-21 14:10:34,186 - apiutil.py:159 -[apiutil:extract_data] - 'bool' object is not subscriptable
+INFO - 2025-11-21 14:10:34,187 - assertions.py:170 -[assertions:assert_result] - yaml文件预期结果：[{'contains': {'error_code': 'none'}}, {'eq': {'msg': '登录成功'}}]
+ERROR - 2025-11-21 14:10:34,187 - assertions.py:194 -[assertions:assert_result] - 接口断言异常，请检查yaml预期结果值是否正确填写!
+ERROR - 2025-11-21 14:10:34,187 - apiutil.py:115 -[apiutil:specification_yaml] - 'bool' object is not subscriptable
+ERROR - 2025-11-21 14:10:34,187 - conftest.py:32 -[conftest:system_login] - 登录接口出现异常，导致后续接口无法继续运行，请检查程序！，'bool' object is not subscriptable
+INFO - 2025-11-21 14:10:34,222 - sendrequest.py:135 -[sendrequest:run_main] - 接口名称：用户登录
+INFO - 2025-11-21 14:10:34,222 - sendrequest.py:136 -[sendrequest:run_main] - 请求地址：http://124.222.183.96:8085/dar/user/login
+INFO - 2025-11-21 14:10:34,222 - sendrequest.py:137 -[sendrequest:run_main] - 请求方式：post
+INFO - 2025-11-21 14:10:34,222 - sendrequest.py:138 -[sendrequest:run_main] - 测试用例名称：用户名和密码正确登录验证
+INFO - 2025-11-21 14:10:34,222 - sendrequest.py:139 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2025-11-21 14:10:34,223 - sendrequest.py:140 -[sendrequest:run_main] - Cookie：None
+INFO - 2025-11-21 14:10:34,224 - sendrequest.py:144 -[sendrequest:run_main] - 请求参数：{'data': {'user_name': 'test01', 'passwd': 'admin123'}}
+INFO - 2025-11-21 14:10:34,268 - sendrequest.py:108 -[sendrequest:send_request] - 接口返回信息：{"timestamp":"2025-11-21T06:10:33.644+00:00","status":404,"error":"Not Found","path":"/dar/user/login"}
+ERROR - 2025-11-21 14:10:34,269 - apiutil.py:159 -[apiutil:extract_data] - 'bool' object is not subscriptable
+INFO - 2025-11-21 14:10:34,269 - assertions.py:170 -[assertions:assert_result] - yaml文件预期结果：[{'contains': {'error_code': 'none'}}, {'eq': {'msg': '登录成功'}}]
+ERROR - 2025-11-21 14:10:34,269 - assertions.py:194 -[assertions:assert_result] - 接口断言异常，请检查yaml预期结果值是否正确填写!
+ERROR - 2025-11-21 14:10:34,270 - apiutil.py:115 -[apiutil:specification_yaml] - 'bool' object is not subscriptable
+ERROR - 2025-11-21 14:10:34,270 - conftest.py:32 -[conftest:system_login] - 登录接口出现异常，导致后续接口无法继续运行，请检查程序！，'bool' object is not subscriptable
+INFO - 2025-11-21 14:10:34,360 - sendrequest.py:135 -[sendrequest:run_main] - 接口名称：用户登录
+INFO - 2025-11-21 14:10:34,360 - sendrequest.py:136 -[sendrequest:run_main] - 请求地址：http://124.222.183.96:8085/dar/user/login
+INFO - 2025-11-21 14:10:34,360 - sendrequest.py:137 -[sendrequest:run_main] - 请求方式：post
+INFO - 2025-11-21 14:10:34,361 - sendrequest.py:138 -[sendrequest:run_main] - 测试用例名称：用户名和密码正确登录验证
+INFO - 2025-11-21 14:10:34,361 - sendrequest.py:139 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2025-11-21 14:10:34,361 - sendrequest.py:140 -[sendrequest:run_main] - Cookie：None
+INFO - 2025-11-21 14:10:34,361 - sendrequest.py:144 -[sendrequest:run_main] - 请求参数：{'data': {'user_name': 'test01', 'passwd': 'admin123'}}
+INFO - 2025-11-21 14:10:34,400 - sendrequest.py:108 -[sendrequest:send_request] - 接口返回信息：{"timestamp":"2025-11-21T06:10:33.775+00:00","status":404,"error":"Not Found","path":"/dar/user/login"}
+ERROR - 2025-11-21 14:10:34,400 - apiutil.py:159 -[apiutil:extract_data] - 'bool' object is not subscriptable
+INFO - 2025-11-21 14:10:34,400 - assertions.py:170 -[assertions:assert_result] - yaml文件预期结果：[{'contains': {'error_code': 'none'}}, {'eq': {'msg': '登录成功'}}]
+ERROR - 2025-11-21 14:10:34,400 - assertions.py:194 -[assertions:assert_result] - 接口断言异常，请检查yaml预期结果值是否正确填写!
+ERROR - 2025-11-21 14:10:34,402 - apiutil.py:115 -[apiutil:specification_yaml] - 'bool' object is not subscriptable
+ERROR - 2025-11-21 14:10:34,402 - conftest.py:32 -[conftest:system_login] - 登录接口出现异常，导致后续接口无法继续运行，请检查程序！，'bool' object is not subscriptable
+INFO - 2025-11-21 14:10:34,436 - sendrequest.py:135 -[sendrequest:run_main] - 接口名称：用户登录
+INFO - 2025-11-21 14:10:34,436 - sendrequest.py:136 -[sendrequest:run_main] - 请求地址：http://124.222.183.96:8085/dar/user/login
+INFO - 2025-11-21 14:10:34,437 - sendrequest.py:137 -[sendrequest:run_main] - 请求方式：post
+INFO - 2025-11-21 14:10:34,437 - sendrequest.py:138 -[sendrequest:run_main] - 测试用例名称：用户名和密码正确登录验证
+INFO - 2025-11-21 14:10:34,437 - sendrequest.py:139 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2025-11-21 14:10:34,437 - sendrequest.py:140 -[sendrequest:run_main] - Cookie：None
+INFO - 2025-11-21 14:10:34,438 - sendrequest.py:144 -[sendrequest:run_main] - 请求参数：{'data': {'user_name': 'test01', 'passwd': 'admin123'}}
+INFO - 2025-11-21 14:10:34,486 - sendrequest.py:108 -[sendrequest:send_request] - 接口返回信息：{"timestamp":"2025-11-21T06:10:33.863+00:00","status":404,"error":"Not Found","path":"/dar/user/login"}
+ERROR - 2025-11-21 14:10:34,487 - apiutil.py:159 -[apiutil:extract_data] - 'bool' object is not subscriptable
+INFO - 2025-11-21 14:10:34,487 - assertions.py:170 -[assertions:assert_result] - yaml文件预期结果：[{'contains': {'error_code': 'none'}}, {'eq': {'msg': '登录成功'}}]
+ERROR - 2025-11-21 14:10:34,488 - assertions.py:194 -[assertions:assert_result] - 接口断言异常，请检查yaml预期结果值是否正确填写!
+ERROR - 2025-11-21 14:10:34,488 - apiutil.py:115 -[apiutil:specification_yaml] - 'bool' object is not subscriptable
+ERROR - 2025-11-21 14:10:34,488 - conftest.py:32 -[conftest:system_login] - 登录接口出现异常，导致后续接口无法继续运行，请检查程序！，'bool' object is not subscriptable
+INFO - 2025-11-21 14:10:34,523 - sendrequest.py:135 -[sendrequest:run_main] - 接口名称：用户登录
+INFO - 2025-11-21 14:10:34,523 - sendrequest.py:136 -[sendrequest:run_main] - 请求地址：http://124.222.183.96:8085/dar/user/login
+INFO - 2025-11-21 14:10:34,523 - sendrequest.py:137 -[sendrequest:run_main] - 请求方式：post
+INFO - 2025-11-21 14:10:34,523 - sendrequest.py:138 -[sendrequest:run_main] - 测试用例名称：用户名和密码正确登录验证
+INFO - 2025-11-21 14:10:34,523 - sendrequest.py:139 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2025-11-21 14:10:34,523 - sendrequest.py:140 -[sendrequest:run_main] - Cookie：None
+INFO - 2025-11-21 14:10:34,524 - sendrequest.py:144 -[sendrequest:run_main] - 请求参数：{'data': {'user_name': 'test01', 'passwd': 'admin123'}}
+INFO - 2025-11-21 14:10:34,566 - sendrequest.py:108 -[sendrequest:send_request] - 接口返回信息：{"timestamp":"2025-11-21T06:10:33.942+00:00","status":404,"error":"Not Found","path":"/dar/user/login"}
+ERROR - 2025-11-21 14:10:34,566 - apiutil.py:159 -[apiutil:extract_data] - 'bool' object is not subscriptable
+INFO - 2025-11-21 14:10:34,567 - assertions.py:170 -[assertions:assert_result] - yaml文件预期结果：[{'contains': {'error_code': 'none'}}, {'eq': {'msg': '登录成功'}}]
+ERROR - 2025-11-21 14:10:34,567 - assertions.py:194 -[assertions:assert_result] - 接口断言异常，请检查yaml预期结果值是否正确填写!
+ERROR - 2025-11-21 14:10:34,567 - apiutil.py:115 -[apiutil:specification_yaml] - 'bool' object is not subscriptable
+ERROR - 2025-11-21 14:10:34,567 - conftest.py:32 -[conftest:system_login] - 登录接口出现异常，导致后续接口无法继续运行，请检查程序！，'bool' object is not subscriptable
+INFO - 2025-11-21 14:10:34,599 - sendrequest.py:135 -[sendrequest:run_main] - 接口名称：用户登录
+INFO - 2025-11-21 14:10:34,599 - sendrequest.py:136 -[sendrequest:run_main] - 请求地址：http://124.222.183.96:8085/dar/user/login
+INFO - 2025-11-21 14:10:34,599 - sendrequest.py:137 -[sendrequest:run_main] - 请求方式：post
+INFO - 2025-11-21 14:10:34,601 - sendrequest.py:138 -[sendrequest:run_main] - 测试用例名称：用户名和密码正确登录验证
+INFO - 2025-11-21 14:10:34,601 - sendrequest.py:139 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2025-11-21 14:10:34,601 - sendrequest.py:140 -[sendrequest:run_main] - Cookie：None
+INFO - 2025-11-21 14:10:34,601 - sendrequest.py:144 -[sendrequest:run_main] - 请求参数：{'data': {'user_name': 'test01', 'passwd': 'admin123'}}
+INFO - 2025-11-21 14:10:34,638 - sendrequest.py:108 -[sendrequest:send_request] - 接口返回信息：{"timestamp":"2025-11-21T06:10:34.017+00:00","status":404,"error":"Not Found","path":"/dar/user/login"}
+ERROR - 2025-11-21 14:10:34,639 - apiutil.py:159 -[apiutil:extract_data] - 'bool' object is not subscriptable
+INFO - 2025-11-21 14:10:34,640 - assertions.py:170 -[assertions:assert_result] - yaml文件预期结果：[{'contains': {'error_code': 'none'}}, {'eq': {'msg': '登录成功'}}]
+ERROR - 2025-11-21 14:10:34,640 - assertions.py:194 -[assertions:assert_result] - 接口断言异常，请检查yaml预期结果值是否正确填写!
+ERROR - 2025-11-21 14:10:34,640 - apiutil.py:115 -[apiutil:specification_yaml] - 'bool' object is not subscriptable
+ERROR - 2025-11-21 14:10:34,640 - conftest.py:32 -[conftest:system_login] - 登录接口出现异常，导致后续接口无法继续运行，请检查程序！，'bool' object is not subscriptable
+INFO - 2025-11-21 14:10:34,672 - sendrequest.py:135 -[sendrequest:run_main] - 接口名称：用户登录
+INFO - 2025-11-21 14:10:34,673 - sendrequest.py:136 -[sendrequest:run_main] - 请求地址：http://124.222.183.96:8085/dar/user/login
+INFO - 2025-11-21 14:10:34,673 - sendrequest.py:137 -[sendrequest:run_main] - 请求方式：post
+INFO - 2025-11-21 14:10:34,674 - sendrequest.py:138 -[sendrequest:run_main] - 测试用例名称：用户名和密码正确登录验证
+INFO - 2025-11-21 14:10:34,674 - sendrequest.py:139 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2025-11-21 14:10:34,674 - sendrequest.py:140 -[sendrequest:run_main] - Cookie：None
+INFO - 2025-11-21 14:10:34,674 - sendrequest.py:144 -[sendrequest:run_main] - 请求参数：{'data': {'user_name': 'test01', 'passwd': 'admin123'}}
+INFO - 2025-11-21 14:10:34,714 - sendrequest.py:108 -[sendrequest:send_request] - 接口返回信息：{"timestamp":"2025-11-21T06:10:34.091+00:00","status":404,"error":"Not Found","path":"/dar/user/login"}
+ERROR - 2025-11-21 14:10:34,715 - apiutil.py:159 -[apiutil:extract_data] - 'bool' object is not subscriptable
+INFO - 2025-11-21 14:10:34,715 - assertions.py:170 -[assertions:assert_result] - yaml文件预期结果：[{'contains': {'error_code': 'none'}}, {'eq': {'msg': '登录成功'}}]
+ERROR - 2025-11-21 14:10:34,715 - assertions.py:194 -[assertions:assert_result] - 接口断言异常，请检查yaml预期结果值是否正确填写!
+ERROR - 2025-11-21 14:10:34,715 - apiutil.py:115 -[apiutil:specification_yaml] - 'bool' object is not subscriptable
+ERROR - 2025-11-21 14:10:34,715 - conftest.py:32 -[conftest:system_login] - 登录接口出现异常，导致后续接口无法继续运行，请检查程序！，'bool' object is not subscriptable
+INFO - 2025-11-21 14:10:34,746 - sendrequest.py:135 -[sendrequest:run_main] - 接口名称：用户登录
+INFO - 2025-11-21 14:10:34,746 - sendrequest.py:136 -[sendrequest:run_main] - 请求地址：http://124.222.183.96:8085/dar/user/login
+INFO - 2025-11-21 14:10:34,746 - sendrequest.py:137 -[sendrequest:run_main] - 请求方式：post
+INFO - 2025-11-21 14:10:34,746 - sendrequest.py:138 -[sendrequest:run_main] - 测试用例名称：用户名和密码正确登录验证
+INFO - 2025-11-21 14:10:34,746 - sendrequest.py:139 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2025-11-21 14:10:34,747 - sendrequest.py:140 -[sendrequest:run_main] - Cookie：None
+INFO - 2025-11-21 14:10:34,747 - sendrequest.py:144 -[sendrequest:run_main] - 请求参数：{'data': {'user_name': 'test01', 'passwd': 'admin123'}}
+INFO - 2025-11-21 14:10:34,781 - sendrequest.py:108 -[sendrequest:send_request] - 接口返回信息：{"timestamp":"2025-11-21T06:10:34.161+00:00","status":404,"error":"Not Found","path":"/dar/user/login"}
+ERROR - 2025-11-21 14:10:34,782 - apiutil.py:159 -[apiutil:extract_data] - 'bool' object is not subscriptable
+INFO - 2025-11-21 14:10:34,782 - assertions.py:170 -[assertions:assert_result] - yaml文件预期结果：[{'contains': {'error_code': 'none'}}, {'eq': {'msg': '登录成功'}}]
+ERROR - 2025-11-21 14:10:34,783 - assertions.py:194 -[assertions:assert_result] - 接口断言异常，请检查yaml预期结果值是否正确填写!
+ERROR - 2025-11-21 14:10:34,783 - apiutil.py:115 -[apiutil:specification_yaml] - 'bool' object is not subscriptable
+ERROR - 2025-11-21 14:10:34,783 - conftest.py:32 -[conftest:system_login] - 登录接口出现异常，导致后续接口无法继续运行，请检查程序！，'bool' object is not subscriptable
+INFO - 2025-11-21 14:10:34,814 - sendrequest.py:135 -[sendrequest:run_main] - 接口名称：用户登录
+INFO - 2025-11-21 14:10:34,814 - sendrequest.py:136 -[sendrequest:run_main] - 请求地址：http://124.222.183.96:8085/dar/user/login
+INFO - 2025-11-21 14:10:34,814 - sendrequest.py:137 -[sendrequest:run_main] - 请求方式：post
+INFO - 2025-11-21 14:10:34,814 - sendrequest.py:138 -[sendrequest:run_main] - 测试用例名称：用户名和密码正确登录验证
+INFO - 2025-11-21 14:10:34,814 - sendrequest.py:139 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2025-11-21 14:10:34,814 - sendrequest.py:140 -[sendrequest:run_main] - Cookie：None
+INFO - 2025-11-21 14:10:34,816 - sendrequest.py:144 -[sendrequest:run_main] - 请求参数：{'data': {'user_name': 'test01', 'passwd': 'admin123'}}
+INFO - 2025-11-21 14:10:34,849 - sendrequest.py:108 -[sendrequest:send_request] - 接口返回信息：{"timestamp":"2025-11-21T06:10:34.229+00:00","status":404,"error":"Not Found","path":"/dar/user/login"}
+ERROR - 2025-11-21 14:10:34,850 - apiutil.py:159 -[apiutil:extract_data] - 'bool' object is not subscriptable
+INFO - 2025-11-21 14:10:34,850 - assertions.py:170 -[assertions:assert_result] - yaml文件预期结果：[{'contains': {'error_code': 'none'}}, {'eq': {'msg': '登录成功'}}]
+ERROR - 2025-11-21 14:10:34,850 - assertions.py:194 -[assertions:assert_result] - 接口断言异常，请检查yaml预期结果值是否正确填写!
+ERROR - 2025-11-21 14:10:34,850 - apiutil.py:115 -[apiutil:specification_yaml] - 'bool' object is not subscriptable
+ERROR - 2025-11-21 14:10:34,850 - conftest.py:32 -[conftest:system_login] - 登录接口出现异常，导致后续接口无法继续运行，请检查程序！，'bool' object is not subscriptable
+INFO - 2025-11-21 14:10:34,883 - sendrequest.py:135 -[sendrequest:run_main] - 接口名称：用户登录
+INFO - 2025-11-21 14:10:34,883 - sendrequest.py:136 -[sendrequest:run_main] - 请求地址：http://124.222.183.96:8085/dar/user/login
+INFO - 2025-11-21 14:10:34,883 - sendrequest.py:137 -[sendrequest:run_main] - 请求方式：post
+INFO - 2025-11-21 14:10:34,883 - sendrequest.py:138 -[sendrequest:run_main] - 测试用例名称：用户名和密码正确登录验证
+INFO - 2025-11-21 14:10:34,883 - sendrequest.py:139 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2025-11-21 14:10:34,883 - sendrequest.py:140 -[sendrequest:run_main] - Cookie：None
+INFO - 2025-11-21 14:10:34,884 - sendrequest.py:144 -[sendrequest:run_main] - 请求参数：{'data': {'user_name': 'test01', 'passwd': 'admin123'}}
+INFO - 2025-11-21 14:10:34,922 - sendrequest.py:108 -[sendrequest:send_request] - 接口返回信息：{"timestamp":"2025-11-21T06:10:34.297+00:00","status":404,"error":"Not Found","path":"/dar/user/login"}
+ERROR - 2025-11-21 14:10:34,922 - apiutil.py:159 -[apiutil:extract_data] - 'bool' object is not subscriptable
+INFO - 2025-11-21 14:10:34,923 - assertions.py:170 -[assertions:assert_result] - yaml文件预期结果：[{'contains': {'error_code': 'none'}}, {'eq': {'msg': '登录成功'}}]
+ERROR - 2025-11-21 14:10:34,923 - assertions.py:194 -[assertions:assert_result] - 接口断言异常，请检查yaml预期结果值是否正确填写!
+ERROR - 2025-11-21 14:10:34,923 - apiutil.py:115 -[apiutil:specification_yaml] - 'bool' object is not subscriptable
+ERROR - 2025-11-21 14:10:34,923 - conftest.py:32 -[conftest:system_login] - 登录接口出现异常，导致后续接口无法继续运行，请检查程序！，'bool' object is not subscriptable
+INFO - 2025-11-21 14:10:34,954 - sendrequest.py:135 -[sendrequest:run_main] - 接口名称：用户登录
+INFO - 2025-11-21 14:10:34,954 - sendrequest.py:136 -[sendrequest:run_main] - 请求地址：http://124.222.183.96:8085/dar/user/login
+INFO - 2025-11-21 14:10:34,954 - sendrequest.py:137 -[sendrequest:run_main] - 请求方式：post
+INFO - 2025-11-21 14:10:34,955 - sendrequest.py:138 -[sendrequest:run_main] - 测试用例名称：用户名和密码正确登录验证
+INFO - 2025-11-21 14:10:34,955 - sendrequest.py:139 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2025-11-21 14:10:34,955 - sendrequest.py:140 -[sendrequest:run_main] - Cookie：None
+INFO - 2025-11-21 14:10:34,955 - sendrequest.py:144 -[sendrequest:run_main] - 请求参数：{'data': {'user_name': 'test01', 'passwd': 'admin123'}}
+INFO - 2025-11-21 14:10:35,008 - sendrequest.py:108 -[sendrequest:send_request] - 接口返回信息：{"timestamp":"2025-11-21T06:10:34.386+00:00","status":404,"error":"Not Found","path":"/dar/user/login"}
+ERROR - 2025-11-21 14:10:35,009 - apiutil.py:159 -[apiutil:extract_data] - 'bool' object is not subscriptable
+INFO - 2025-11-21 14:10:35,009 - assertions.py:170 -[assertions:assert_result] - yaml文件预期结果：[{'contains': {'error_code': 'none'}}, {'eq': {'msg': '登录成功'}}]
+ERROR - 2025-11-21 14:10:35,009 - assertions.py:194 -[assertions:assert_result] - 接口断言异常，请检查yaml预期结果值是否正确填写!
+ERROR - 2025-11-21 14:10:35,009 - apiutil.py:115 -[apiutil:specification_yaml] - 'bool' object is not subscriptable
+ERROR - 2025-11-21 14:10:35,009 - conftest.py:32 -[conftest:system_login] - 登录接口出现异常，导致后续接口无法继续运行，请检查程序！，'bool' object is not subscriptable
+INFO - 2025-11-21 14:10:35,046 - sendrequest.py:135 -[sendrequest:run_main] - 接口名称：用户登录
+INFO - 2025-11-21 14:10:35,046 - sendrequest.py:136 -[sendrequest:run_main] - 请求地址：http://124.222.183.96:8085/dar/user/login
+INFO - 2025-11-21 14:10:35,046 - sendrequest.py:137 -[sendrequest:run_main] - 请求方式：post
+INFO - 2025-11-21 14:10:35,046 - sendrequest.py:138 -[sendrequest:run_main] - 测试用例名称：用户名和密码正确登录验证
+INFO - 2025-11-21 14:10:35,046 - sendrequest.py:139 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2025-11-21 14:10:35,047 - sendrequest.py:140 -[sendrequest:run_main] - Cookie：None
+INFO - 2025-11-21 14:10:35,047 - sendrequest.py:144 -[sendrequest:run_main] - 请求参数：{'data': {'user_name': 'test01', 'passwd': 'admin123'}}
+INFO - 2025-11-21 14:10:35,082 - sendrequest.py:108 -[sendrequest:send_request] - 接口返回信息：{"timestamp":"2025-11-21T06:10:34.462+00:00","status":404,"error":"Not Found","path":"/dar/user/login"}
+ERROR - 2025-11-21 14:10:35,083 - apiutil.py:159 -[apiutil:extract_data] - 'bool' object is not subscriptable
+INFO - 2025-11-21 14:10:35,083 - assertions.py:170 -[assertions:assert_result] - yaml文件预期结果：[{'contains': {'error_code': 'none'}}, {'eq': {'msg': '登录成功'}}]
+ERROR - 2025-11-21 14:10:35,083 - assertions.py:194 -[assertions:assert_result] - 接口断言异常，请检查yaml预期结果值是否正确填写!
+ERROR - 2025-11-21 14:10:35,083 - apiutil.py:115 -[apiutil:specification_yaml] - 'bool' object is not subscriptable
+ERROR - 2025-11-21 14:10:35,083 - conftest.py:32 -[conftest:system_login] - 登录接口出现异常，导致后续接口无法继续运行，请检查程序！，'bool' object is not subscriptable
+INFO - 2025-11-21 14:23:29,495 - sendrequest.py:135 -[sendrequest:run_main] - 接口名称：用户登录
+INFO - 2025-11-21 14:23:29,495 - sendrequest.py:136 -[sendrequest:run_main] - 请求地址：http://124.222.183.96:8085/dar/user/login
+INFO - 2025-11-21 14:23:29,495 - sendrequest.py:137 -[sendrequest:run_main] - 请求方式：post
+INFO - 2025-11-21 14:23:29,495 - sendrequest.py:138 -[sendrequest:run_main] - 测试用例名称：用户名和密码正确登录验证
+INFO - 2025-11-21 14:23:29,496 - sendrequest.py:139 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2025-11-21 14:23:29,496 - sendrequest.py:140 -[sendrequest:run_main] - Cookie：None
+INFO - 2025-11-21 14:23:29,496 - sendrequest.py:144 -[sendrequest:run_main] - 请求参数：{'data': {'user_name': 'test01', 'passwd': 'admin123'}}
+INFO - 2025-11-21 14:23:29,597 - sendrequest.py:108 -[sendrequest:send_request] - 接口返回信息：{"timestamp":"2025-11-21T06:23:28.985+00:00","status":404,"error":"Not Found","path":"/dar/user/login"}
+ERROR - 2025-11-21 14:23:29,598 - apiutil.py:159 -[apiutil:extract_data] - 'bool' object is not subscriptable
+INFO - 2025-11-21 14:23:29,598 - assertions.py:170 -[assertions:assert_result] - yaml文件预期结果：[{'contains': {'error_code': 'none'}}, {'eq': {'msg': '登录成功'}}]
+ERROR - 2025-11-21 14:23:29,598 - assertions.py:194 -[assertions:assert_result] - 接口断言异常，请检查yaml预期结果值是否正确填写!
+ERROR - 2025-11-21 14:23:29,598 - apiutil.py:115 -[apiutil:specification_yaml] - 'bool' object is not subscriptable
+ERROR - 2025-11-21 14:23:29,598 - conftest.py:32 -[conftest:system_login] - 登录接口出现异常，导致后续接口无法继续运行，请检查程序！，'bool' object is not subscriptable
+INFO - 2025-11-21 14:23:29,960 - sendrequest.py:135 -[sendrequest:run_main] - 接口名称：用户登录
+INFO - 2025-11-21 14:23:29,960 - sendrequest.py:136 -[sendrequest:run_main] - 请求地址：http://124.222.183.96:8085/dar/user/login
+INFO - 2025-11-21 14:23:29,960 - sendrequest.py:137 -[sendrequest:run_main] - 请求方式：post
+INFO - 2025-11-21 14:23:29,960 - sendrequest.py:138 -[sendrequest:run_main] - 测试用例名称：用户名和密码正确登录验证
+INFO - 2025-11-21 14:23:29,961 - sendrequest.py:139 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2025-11-21 14:23:29,961 - sendrequest.py:140 -[sendrequest:run_main] - Cookie：None
+INFO - 2025-11-21 14:23:29,961 - sendrequest.py:144 -[sendrequest:run_main] - 请求参数：{'data': {'user_name': 'test01', 'passwd': 'admin123'}}
+INFO - 2025-11-21 14:23:29,995 - sendrequest.py:108 -[sendrequest:send_request] - 接口返回信息：{"timestamp":"2025-11-21T06:23:29.383+00:00","status":404,"error":"Not Found","path":"/dar/user/login"}
+ERROR - 2025-11-21 14:23:29,995 - apiutil.py:159 -[apiutil:extract_data] - 'bool' object is not subscriptable
+INFO - 2025-11-21 14:23:29,996 - assertions.py:170 -[assertions:assert_result] - yaml文件预期结果：[{'contains': {'error_code': 'none'}}, {'eq': {'msg': '登录成功'}}]
+ERROR - 2025-11-21 14:23:29,996 - assertions.py:194 -[assertions:assert_result] - 接口断言异常，请检查yaml预期结果值是否正确填写!
+ERROR - 2025-11-21 14:23:29,996 - apiutil.py:115 -[apiutil:specification_yaml] - 'bool' object is not subscriptable
+ERROR - 2025-11-21 14:23:29,996 - conftest.py:32 -[conftest:system_login] - 登录接口出现异常，导致后续接口无法继续运行，请检查程序！，'bool' object is not subscriptable
+INFO - 2025-11-21 14:23:30,021 - sendrequest.py:135 -[sendrequest:run_main] - 接口名称：用户登录
+INFO - 2025-11-21 14:23:30,021 - sendrequest.py:136 -[sendrequest:run_main] - 请求地址：http://124.222.183.96:8085/dar/user/login
+INFO - 2025-11-21 14:23:30,021 - sendrequest.py:137 -[sendrequest:run_main] - 请求方式：post
+INFO - 2025-11-21 14:23:30,022 - sendrequest.py:138 -[sendrequest:run_main] - 测试用例名称：用户名和密码正确登录验证
+INFO - 2025-11-21 14:23:30,022 - sendrequest.py:139 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2025-11-21 14:23:30,022 - sendrequest.py:140 -[sendrequest:run_main] - Cookie：None
+INFO - 2025-11-21 14:23:30,022 - sendrequest.py:144 -[sendrequest:run_main] - 请求参数：{'data': {'user_name': 'test01', 'passwd': 'admin123'}}
+INFO - 2025-11-21 14:23:30,057 - sendrequest.py:108 -[sendrequest:send_request] - 接口返回信息：{"timestamp":"2025-11-21T06:23:29.445+00:00","status":404,"error":"Not Found","path":"/dar/user/login"}
+ERROR - 2025-11-21 14:23:30,058 - apiutil.py:159 -[apiutil:extract_data] - 'bool' object is not subscriptable
+INFO - 2025-11-21 14:23:30,058 - assertions.py:170 -[assertions:assert_result] - yaml文件预期结果：[{'contains': {'error_code': 'none'}}, {'eq': {'msg': '登录成功'}}]
+ERROR - 2025-11-21 14:23:30,058 - assertions.py:194 -[assertions:assert_result] - 接口断言异常，请检查yaml预期结果值是否正确填写!
+ERROR - 2025-11-21 14:23:30,058 - apiutil.py:115 -[apiutil:specification_yaml] - 'bool' object is not subscriptable
+ERROR - 2025-11-21 14:23:30,058 - conftest.py:32 -[conftest:system_login] - 登录接口出现异常，导致后续接口无法继续运行，请检查程序！，'bool' object is not subscriptable
+INFO - 2025-11-21 14:24:06,219 - sendrequest.py:135 -[sendrequest:run_main] - 接口名称：用户登录
+INFO - 2025-11-21 14:24:06,219 - sendrequest.py:136 -[sendrequest:run_main] - 请求地址：http://124.222.183.96:8085/dar/user/login
+INFO - 2025-11-21 14:24:06,219 - sendrequest.py:137 -[sendrequest:run_main] - 请求方式：post
+INFO - 2025-11-21 14:24:06,219 - sendrequest.py:138 -[sendrequest:run_main] - 测试用例名称：用户名和密码正确登录验证
+INFO - 2025-11-21 14:24:06,219 - sendrequest.py:139 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2025-11-21 14:24:06,219 - sendrequest.py:140 -[sendrequest:run_main] - Cookie：None
+INFO - 2025-11-21 14:24:06,219 - sendrequest.py:144 -[sendrequest:run_main] - 请求参数：{'data': {'user_name': 'test01', 'passwd': 'admin123'}}
+INFO - 2025-11-21 14:24:06,320 - sendrequest.py:108 -[sendrequest:send_request] - 接口返回信息：{"timestamp":"2025-11-21T06:24:05.708+00:00","status":404,"error":"Not Found","path":"/dar/user/login"}
+ERROR - 2025-11-21 14:24:06,320 - apiutil.py:159 -[apiutil:extract_data] - 'bool' object is not subscriptable
+INFO - 2025-11-21 14:24:06,320 - assertions.py:170 -[assertions:assert_result] - yaml文件预期结果：[{'contains': {'error_code': 'none'}}, {'eq': {'msg': '登录成功'}}]
+ERROR - 2025-11-21 14:24:06,320 - assertions.py:194 -[assertions:assert_result] - 接口断言异常，请检查yaml预期结果值是否正确填写!
+ERROR - 2025-11-21 14:24:06,320 - apiutil.py:115 -[apiutil:specification_yaml] - 'bool' object is not subscriptable
+ERROR - 2025-11-21 14:24:06,320 - conftest.py:32 -[conftest:system_login] - 登录接口出现异常，导致后续接口无法继续运行，请检查程序！，'bool' object is not subscriptable
+INFO - 2025-11-21 14:24:06,667 - sendrequest.py:135 -[sendrequest:run_main] - 接口名称：用户登录
+INFO - 2025-11-21 14:24:06,667 - sendrequest.py:136 -[sendrequest:run_main] - 请求地址：http://124.222.183.96:8085/dar/user/login
+INFO - 2025-11-21 14:24:06,667 - sendrequest.py:137 -[sendrequest:run_main] - 请求方式：post
+INFO - 2025-11-21 14:24:06,669 - sendrequest.py:138 -[sendrequest:run_main] - 测试用例名称：用户名和密码正确登录验证
+INFO - 2025-11-21 14:24:06,669 - sendrequest.py:139 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2025-11-21 14:24:06,669 - sendrequest.py:140 -[sendrequest:run_main] - Cookie：None
+INFO - 2025-11-21 14:24:06,669 - sendrequest.py:144 -[sendrequest:run_main] - 请求参数：{'data': {'user_name': 'test01', 'passwd': 'admin123'}}
+INFO - 2025-11-21 14:24:06,701 - sendrequest.py:108 -[sendrequest:send_request] - 接口返回信息：{"timestamp":"2025-11-21T06:24:06.091+00:00","status":404,"error":"Not Found","path":"/dar/user/login"}
+ERROR - 2025-11-21 14:24:06,701 - apiutil.py:159 -[apiutil:extract_data] - 'bool' object is not subscriptable
+INFO - 2025-11-21 14:24:06,701 - assertions.py:170 -[assertions:assert_result] - yaml文件预期结果：[{'contains': {'error_code': 'none'}}, {'eq': {'msg': '登录成功'}}]
+ERROR - 2025-11-21 14:24:06,701 - assertions.py:194 -[assertions:assert_result] - 接口断言异常，请检查yaml预期结果值是否正确填写!
+ERROR - 2025-11-21 14:24:06,701 - apiutil.py:115 -[apiutil:specification_yaml] - 'bool' object is not subscriptable
+ERROR - 2025-11-21 14:24:06,701 - conftest.py:32 -[conftest:system_login] - 登录接口出现异常，导致后续接口无法继续运行，请检查程序！，'bool' object is not subscriptable
+INFO - 2025-11-21 14:24:06,724 - sendrequest.py:135 -[sendrequest:run_main] - 接口名称：用户登录
+INFO - 2025-11-21 14:24:06,725 - sendrequest.py:136 -[sendrequest:run_main] - 请求地址：http://124.222.183.96:8085/dar/user/login
+INFO - 2025-11-21 14:24:06,725 - sendrequest.py:137 -[sendrequest:run_main] - 请求方式：post
+INFO - 2025-11-21 14:24:06,725 - sendrequest.py:138 -[sendrequest:run_main] - 测试用例名称：用户名和密码正确登录验证
+INFO - 2025-11-21 14:24:06,725 - sendrequest.py:139 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2025-11-21 14:24:06,725 - sendrequest.py:140 -[sendrequest:run_main] - Cookie：None
+INFO - 2025-11-21 14:24:06,725 - sendrequest.py:144 -[sendrequest:run_main] - 请求参数：{'data': {'user_name': 'test01', 'passwd': 'admin123'}}
+INFO - 2025-11-21 14:24:06,757 - sendrequest.py:108 -[sendrequest:send_request] - 接口返回信息：{"timestamp":"2025-11-21T06:24:06.146+00:00","status":404,"error":"Not Found","path":"/dar/user/login"}
+ERROR - 2025-11-21 14:24:06,757 - apiutil.py:159 -[apiutil:extract_data] - 'bool' object is not subscriptable
+INFO - 2025-11-21 14:24:06,757 - assertions.py:170 -[assertions:assert_result] - yaml文件预期结果：[{'contains': {'error_code': 'none'}}, {'eq': {'msg': '登录成功'}}]
+ERROR - 2025-11-21 14:24:06,757 - assertions.py:194 -[assertions:assert_result] - 接口断言异常，请检查yaml预期结果值是否正确填写!
+ERROR - 2025-11-21 14:24:06,757 - apiutil.py:115 -[apiutil:specification_yaml] - 'bool' object is not subscriptable
+ERROR - 2025-11-21 14:24:06,757 - conftest.py:32 -[conftest:system_login] - 登录接口出现异常，导致后续接口无法继续运行，请检查程序！，'bool' object is not subscriptable
+INFO - 2025-11-21 14:30:21,320 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-11-21 14:30:21,655 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-11-21 14:30:21,656 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-11-21 14:30:21,660 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-11-21 14:30:21,660 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-11-21 14:30:21,662 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-11-21 14:38:37,664 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-11-21 14:38:37,992 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-11-21 14:38:37,993 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-11-21 14:38:37,995 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-11-21 14:38:37,996 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-11-21 14:38:38,000 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-11-21 14:47:56,525 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-11-21 14:47:56,857 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-11-21 14:47:56,859 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-11-21 14:47:56,868 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-11-21 14:47:56,868 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-11-21 14:47:56,876 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-11-21 14:55:49,560 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-11-21 14:55:49,893 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-11-21 14:55:49,893 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-11-21 14:55:49,896 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-11-21 14:55:49,897 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-11-21 14:55:49,900 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-11-21 14:57:31,312 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-11-21 14:57:31,655 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-11-21 14:57:31,656 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-11-21 14:57:31,658 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-11-21 14:57:31,659 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-11-21 14:57:31,662 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-11-21 15:03:12,104 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-11-21 15:03:12,453 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-11-21 15:03:12,453 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-11-21 15:03:12,456 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-11-21 15:03:12,457 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-11-21 15:03:12,460 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-11-21 15:07:54,448 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-11-21 15:07:54,773 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-11-21 15:07:54,774 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-11-21 15:07:54,776 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-11-21 15:07:54,778 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-11-21 15:07:54,781 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-11-21 15:13:02,668 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-11-21 15:13:03,028 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-11-21 15:13:03,029 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-11-21 15:13:03,038 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-11-21 15:13:03,039 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-11-21 15:13:03,047 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-11-21 15:24:51,551 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-11-21 15:24:51,890 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-11-21 15:24:51,890 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-11-21 15:24:51,893 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-11-21 15:24:51,893 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-11-21 15:24:51,897 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-11-21 15:31:15,268 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-11-21 15:31:15,597 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-11-21 15:31:15,598 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-11-21 15:31:15,600 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-11-21 15:31:15,601 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-11-21 15:31:15,603 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-11-21 15:31:30,279 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-11-21 15:31:30,624 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-11-21 15:31:30,625 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-11-21 15:31:30,628 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-11-21 15:31:30,628 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-11-21 15:31:30,631 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
