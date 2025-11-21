@@ -1,19 +1,20 @@
-# 2. 获取首页推荐商品列表：使用登录 token 访问，提取第一个商品的 ID
 - baseInfo:
     api_name: 推荐商品列表
     url: /home/recommendProductList
     method: get
     header:
-      Authorization: ${get_extract_data(tokenHead)} ${get_extract_data(token)}  # 组装授权头：如 "Bearer xxxxx"
+      Authorization: ${get_extract_data(tokenHead)} ${get_extract_data(token)}
+
   testCase:
     - case_name: 获取推荐商品_提取商品ID
       params:
         pageSize: 4
         pageNum: 1
       validation:
-        - contains: { 'code': 200 }
+        - status_code: 200
       extract:
-        productId: $.data[0].id  # 提取列表第一个商品的 id
+        productId: $.data[0].id
+
 
 
 

@@ -428,3 +428,180 @@ INFO - 2025-11-21 15:31:30,625 - conftest.py:20 -[conftest:start_test_and_end] -
 INFO - 2025-11-21 15:31:30,628 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
 INFO - 2025-11-21 15:31:30,628 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
 INFO - 2025-11-21 15:31:30,631 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+ERROR - 2025-11-21 16:21:38,764 - readyaml.py:27 -[readyaml:get_testcase_yaml] - [./testcase/mall_detail/mall_logging.yaml]文件未找到，请检查路径是否正确
+ERROR - 2025-11-21 16:35:37,451 - readyaml.py:27 -[readyaml:get_testcase_yaml] - [./testcase/mall_detail/mall_detail.yaml]文件未找到，请检查路径是否正确
+INFO - 2025-11-21 16:37:47,115 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-11-21 16:37:47,117 - sendrequest.py:135 -[sendrequest:run_main] - 接口名称：用户登录
+INFO - 2025-11-21 16:37:47,117 - sendrequest.py:136 -[sendrequest:run_main] - 请求地址：http://124.222.183.96:8085/sso/login
+INFO - 2025-11-21 16:37:47,117 - sendrequest.py:137 -[sendrequest:run_main] - 请求方式：post
+INFO - 2025-11-21 16:37:47,117 - sendrequest.py:138 -[sendrequest:run_main] - 测试用例名称：正常登录_获取token
+INFO - 2025-11-21 16:37:47,117 - sendrequest.py:139 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/json;charset=UTF-8'}
+INFO - 2025-11-21 16:37:47,117 - sendrequest.py:140 -[sendrequest:run_main] - Cookie：None
+INFO - 2025-11-21 16:37:47,117 - sendrequest.py:147 -[sendrequest:run_main] - 请求参数：{'json': {'username': 'member', 'password': 'member123'}}
+INFO - 2025-11-21 16:37:47,157 - sendrequest.py:108 -[sendrequest:send_request] - 接口返回信息：{"timestamp":"2025-11-21T08:37:47.088+00:00","status":400,"error":"Bad Request","path":"/sso/login"}
+ERROR - 2025-11-21 16:37:47,157 - apiutil.py:159 -[apiutil:extract_data] - 'bool' object is not subscriptable
+INFO - 2025-11-21 16:37:47,158 - assertions.py:170 -[assertions:assert_result] - yaml文件预期结果：[{'contains': {'code': 200}}]
+ERROR - 2025-11-21 16:37:47,158 - assertions.py:194 -[assertions:assert_result] - 接口断言异常，请检查yaml预期结果值是否正确填写!
+ERROR - 2025-11-21 16:37:47,158 - apiutil.py:115 -[apiutil:specification_yaml] - 'bool' object is not subscriptable
+INFO - 2025-11-21 16:37:47,513 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-11-21 16:37:47,514 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+ERROR - 2025-11-21 16:37:47,516 - readyaml.py:112 -[readyaml:get_extract_yaml] - 【extract.yaml】没有找到：tokenHead,--'NoneType' object is not subscriptable
+ERROR - 2025-11-21 16:37:47,516 - readyaml.py:112 -[readyaml:get_extract_yaml] - 【extract.yaml】没有找到：tokenHead,--'NoneType' object is not subscriptable
+ERROR - 2025-11-21 16:37:47,517 - readyaml.py:112 -[readyaml:get_extract_yaml] - 【extract.yaml】没有找到：token,--'NoneType' object is not subscriptable
+ERROR - 2025-11-21 16:37:47,517 - readyaml.py:112 -[readyaml:get_extract_yaml] - 【extract.yaml】没有找到：token,--'NoneType' object is not subscriptable
+INFO - 2025-11-21 16:37:47,518 - sendrequest.py:135 -[sendrequest:run_main] - 接口名称：推荐商品列表
+INFO - 2025-11-21 16:37:47,518 - sendrequest.py:136 -[sendrequest:run_main] - 请求地址：http://124.222.183.96:8085/home/recommendProductList
+INFO - 2025-11-21 16:37:47,518 - sendrequest.py:137 -[sendrequest:run_main] - 请求方式：get
+INFO - 2025-11-21 16:37:47,518 - sendrequest.py:138 -[sendrequest:run_main] - 测试用例名称：获取推荐商品_提取商品ID
+INFO - 2025-11-21 16:37:47,518 - sendrequest.py:139 -[sendrequest:run_main] - 请求头：{'Authorization': 'None None'}
+INFO - 2025-11-21 16:37:47,518 - sendrequest.py:140 -[sendrequest:run_main] - Cookie：None
+INFO - 2025-11-21 16:37:47,518 - sendrequest.py:150 -[sendrequest:run_main] - 请求参数：{'params': {'pageSize': 4, 'pageNum': 1}}
+INFO - 2025-11-21 16:37:47,562 - sendrequest.py:108 -[sendrequest:send_request] - 接口返回信息：{"code":200,"message":"操作成功","data":[{"id":26,"brandId":3,"productCategoryId":19,"feightTemplateId":0,"productAttributeCategoryId":3,"name":"华为 HUAWEI P20 ","pic":"http://macro-oss.oss-cn-shenzhen.aliyuncs.com/mall/images/20180607/5ac1bf58Ndefaac16.jpg","productSn":"6946605","deleteStatus":0,"publishStatus":1,"newStatus":1,"recommandStatus":1,"verifyStatus":0,"sort":100,"sale":100,"price":3788.00,"promotionPrice":3659.00,"giftGrowth":3788,"giftPoint":3788,"usePointLimit":0,"subTitle":"AI智慧全面屏 6GB +64GB 亮黑色 全网通版 移动联通电信4G手机 双卡双待手机 双卡双待","originalPrice":4288.00,"stock":1000,"lowStock":0,"unit":"件","weight":0.00,"previewStatus":1,"serviceIds":"2,3,1","keywords":"","note":"","albumPics":"http://macro-oss.oss-cn-shenzhen.aliyuncs.com/mall/images/20180607/5ab46a3cN616bdc41.jpg,http://macro-oss.oss-cn-shenzhen.aliyuncs.com/mall/images/20180607/5ac1bf5fN2522b9dc.jpg","detailTitle":"","promotionStartTime":"2023-01-10T07:49:38.000+00:00","promotionEndTime":"2023-01-30T16:00:00.000+00:00","promotionPerLimit":0,"promotionType":1,"brandName":"华为","productCategoryName":"手机通讯"},{"id":27,"brandId":6,"productCategoryId":19,"feightTemplateId":0,"productAttributeCategoryId":3,"name":"小米8 全面屏游戏智能手机 6GB+64GB 黑色 全网通4G 双卡双待","pic":"http://macro-oss.oss-cn-shenzhen.aliyuncs.com/mall/images/20180615/xiaomi.jpg","productSn":"7437788","deleteStatus":0,"publishStatus":1,"newStatus":1,"recommandStatus":1,"verifyStatus":0,"sort":0,"sale":99,"price":2699.00,"giftGrowth":2699,"giftPoint":2699,"usePointLimit":0,"subTitle":"骁龙845处理器，红外人脸解锁，AI变焦双摄，AI语音助手小米6X低至1299，点击抢购","originalPrice":2699.00,"stock":100,"lowStock":0,"unit":"","weight":0.00,"previewStatus":0,"serviceIds":"1","keywords":"","note":"","albumPics":"","detailTitle":"","promotionPerLimit":0,"promotionType":3,"brandName":"小米","productCategoryName":"手机通讯"},{"id":28,"brandId":6,"productCategoryId":19,"feightTemplateId":0,"productAttributeCategoryId":3,"name":"小米 红米5A 全网通版 3GB+32GB 香槟金 移动联通电信4G手机 双卡双待","pic":"http://macro-oss.oss-cn-shenzhen.aliyuncs.com/mall/images/20180615/5a9d248cN071f4959.jpg","productSn":"7437789","deleteStatus":0,"publishStatus":1,"newStatus":1,"recommandStatus":1,"verifyStatus":0,"sort":0,"sale":98,"price":649.00,"giftGrowth":649,"giftPoint":649,"usePointLimit":0,"subTitle":"8天超长待机，137g轻巧机身，高通骁龙处理器小米6X低至1299，点击抢购","originalPrice":649.00,"stock":100,"lowStock":0,"unit":"","weight":0.00,"previewStatus":0,"serviceIds":"","keywords":"","note":"","albumPics":"","detailTitle":"","promotionPerLimit":0,"promotionType":4,"brandName":"小米","productCategoryName":"手机通讯"},{"id":29,"brandId":51,"productCategoryId":19,"feightTemplateId":0,"productAttributeCategoryId":3,"name":"Apple iPhone 8 Plus 64GB 红色特别版 移动联通电信4G手机","pic":"http://macro-oss.oss-cn-shenzhen.aliyuncs.com/mall/images/20180615/5acc5248N6a5f81cd.jpg","productSn":"7437799","deleteStatus":0,"publishStatus":1,"newStatus":1,"recommandStatus":1,"verifyStatus":0,"sort":0,"sale":97,"price":5499.00,"promotionPrice":4799.00,"giftGrowth":5499,"giftPoint":5499,"usePointLimit":0,"subTitle":"【限时限量抢购】Apple产品年中狂欢节，好物尽享，美在智慧！速来 >> 勾选[保障服务][原厂保2年]，获得AppleCare+全方位服务计划，原厂延保售后无忧。","originalPrice":5499.00,"stock":100,"lowStock":0,"unit":"","weight":0.00,"previewStatus":0,"serviceIds":"1,2,3","keywords":"","note":"","albumPics":"","detailTitle":"","promotionStartTime":"2020-05-04T07:12:54.000+00:00","promotionEndTime":"2020-05-29T16:00:00.000+00:00","promotionPerLimit":0,"promotionType":1,"brandName":"苹果","productCategoryName":"手机通讯"}]}
+INFO - 2025-11-21 16:37:47,563 - apiutil.py:154 -[apiutil:extract_data] - 提取接口的返回值：
+INFO - 2025-11-21 16:37:47,564 - assertions.py:170 -[assertions:assert_result] - yaml文件预期结果：[{'contains': {'code': 200}}]
+ERROR - 2025-11-21 16:37:47,564 - assertions.py:194 -[assertions:assert_result] - 接口断言异常，请检查yaml预期结果值是否正确填写!
+ERROR - 2025-11-21 16:37:47,564 - apiutil.py:115 -[apiutil:specification_yaml] - 'int' object has no attribute 'upper'
+INFO - 2025-11-21 16:37:47,577 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-11-21 16:37:47,579 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+ERROR - 2025-11-21 16:37:47,581 - readyaml.py:112 -[readyaml:get_extract_yaml] - 【extract.yaml】没有找到：tokenHead,--'tokenHead'
+ERROR - 2025-11-21 16:37:47,582 - readyaml.py:112 -[readyaml:get_extract_yaml] - 【extract.yaml】没有找到：tokenHead,--'tokenHead'
+ERROR - 2025-11-21 16:37:47,583 - readyaml.py:112 -[readyaml:get_extract_yaml] - 【extract.yaml】没有找到：token,--'token'
+ERROR - 2025-11-21 16:37:47,583 - readyaml.py:112 -[readyaml:get_extract_yaml] - 【extract.yaml】没有找到：token,--'token'
+INFO - 2025-11-21 16:37:47,583 - sendrequest.py:135 -[sendrequest:run_main] - 接口名称：商品详情
+INFO - 2025-11-21 16:37:47,583 - sendrequest.py:136 -[sendrequest:run_main] - 请求地址：http://124.222.183.96:8085/product/detail/${get_extract_data(productId)}
+INFO - 2025-11-21 16:37:47,583 - sendrequest.py:137 -[sendrequest:run_main] - 请求方式：get
+INFO - 2025-11-21 16:37:47,584 - sendrequest.py:138 -[sendrequest:run_main] - 测试用例名称：获取商品详情
+INFO - 2025-11-21 16:37:47,584 - sendrequest.py:139 -[sendrequest:run_main] - 请求头：{'Authorization': 'None None'}
+INFO - 2025-11-21 16:37:47,584 - sendrequest.py:140 -[sendrequest:run_main] - Cookie：None
+INFO - 2025-11-21 16:37:47,584 - sendrequest.py:150 -[sendrequest:run_main] - 请求参数：{'params': '{}'}
+INFO - 2025-11-21 16:37:47,632 - sendrequest.py:108 -[sendrequest:send_request] - 接口返回信息：{"timestamp":"2025-11-21T08:37:47.551+00:00","status":400,"error":"Bad Request","path":"/product/detail/$%7Bget_extract_data(productId)%7D"}
+INFO - 2025-11-21 16:37:47,633 - assertions.py:170 -[assertions:assert_result] - yaml文件预期结果：[{'contains': {'code': 200}}]
+ERROR - 2025-11-21 16:37:47,633 - assertions.py:194 -[assertions:assert_result] - 接口断言异常，请检查yaml预期结果值是否正确填写!
+ERROR - 2025-11-21 16:37:47,633 - apiutil.py:115 -[apiutil:specification_yaml] - 'bool' object is not subscriptable
+INFO - 2025-11-21 16:37:47,645 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-11-21 16:39:50,031 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-11-21 16:39:50,033 - sendrequest.py:135 -[sendrequest:run_main] - 接口名称：用户登录
+INFO - 2025-11-21 16:39:50,033 - sendrequest.py:136 -[sendrequest:run_main] - 请求地址：http://124.222.183.96:8085/sso/login
+INFO - 2025-11-21 16:39:50,033 - sendrequest.py:137 -[sendrequest:run_main] - 请求方式：post
+INFO - 2025-11-21 16:39:50,034 - sendrequest.py:138 -[sendrequest:run_main] - 测试用例名称：正常登录_获取token
+INFO - 2025-11-21 16:39:50,034 - sendrequest.py:139 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2025-11-21 16:39:50,034 - sendrequest.py:140 -[sendrequest:run_main] - Cookie：None
+INFO - 2025-11-21 16:39:50,034 - sendrequest.py:144 -[sendrequest:run_main] - 请求参数：{'data': {'username': 'member', 'password': 'member123'}}
+INFO - 2025-11-21 16:39:50,262 - sendrequest.py:108 -[sendrequest:send_request] - 接口返回信息：{"code":200,"message":"操作成功","data":{"tokenHead":"Bearer ","token":"eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJtZW1iZXIiLCJjcmVhdGVkIjoxNzYzNzE0MzkwMTkzLCJleHAiOjE3NjQzMTkxOTB9.roeS-E65B3nRyh1ArTiAJhLaQ9STt1dADvRe8ZKX8AUSOB9KF521fcnQyUi1WkW9VSvBtLsg8BdAhRPM6vXTAQ"}}
+INFO - 2025-11-21 16:39:50,263 - apiutil.py:154 -[apiutil:extract_data] - 提取接口的返回值：
+INFO - 2025-11-21 16:39:50,264 - apiutil.py:154 -[apiutil:extract_data] - 提取接口的返回值：
+INFO - 2025-11-21 16:39:50,264 - assertions.py:170 -[assertions:assert_result] - yaml文件预期结果：[{'status_code': 200}]
+ERROR - 2025-11-21 16:39:50,265 - assertions.py:191 -[assertions:assert_result] - 不支持此种断言方式
+INFO - 2025-11-21 16:39:50,265 - assertions.py:198 -[assertions:assert_result] - 测试成功
+INFO - 2025-11-21 16:39:50,265 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-11-21 16:39:50,266 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-11-21 16:39:50,270 - sendrequest.py:135 -[sendrequest:run_main] - 接口名称：推荐商品列表
+INFO - 2025-11-21 16:39:50,270 - sendrequest.py:136 -[sendrequest:run_main] - 请求地址：http://124.222.183.96:8085/home/recommendProductList
+INFO - 2025-11-21 16:39:50,270 - sendrequest.py:137 -[sendrequest:run_main] - 请求方式：get
+INFO - 2025-11-21 16:39:50,271 - sendrequest.py:138 -[sendrequest:run_main] - 测试用例名称：获取推荐商品_提取商品ID
+INFO - 2025-11-21 16:39:50,271 - sendrequest.py:139 -[sendrequest:run_main] - 请求头：{'Authorization': 'Bearer  eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJtZW1iZXIiLCJjcmVhdGVkIjoxNzYzNzE0MzkwMTkzLCJleHAiOjE3NjQzMTkxOTB9.roeS-E65B3nRyh1ArTiAJhLaQ9STt1dADvRe8ZKX8AUSOB9KF521fcnQyUi1WkW9VSvBtLsg8BdAhRPM6vXTAQ'}
+INFO - 2025-11-21 16:39:50,271 - sendrequest.py:140 -[sendrequest:run_main] - Cookie：None
+INFO - 2025-11-21 16:39:50,271 - sendrequest.py:150 -[sendrequest:run_main] - 请求参数：{'params': {'pageSize': 4, 'pageNum': 1}}
+INFO - 2025-11-21 16:39:50,340 - sendrequest.py:108 -[sendrequest:send_request] - 接口返回信息：{"code":200,"message":"操作成功","data":[{"id":26,"brandId":3,"productCategoryId":19,"feightTemplateId":0,"productAttributeCategoryId":3,"name":"华为 HUAWEI P20 ","pic":"http://macro-oss.oss-cn-shenzhen.aliyuncs.com/mall/images/20180607/5ac1bf58Ndefaac16.jpg","productSn":"6946605","deleteStatus":0,"publishStatus":1,"newStatus":1,"recommandStatus":1,"verifyStatus":0,"sort":100,"sale":100,"price":3788.00,"promotionPrice":3659.00,"giftGrowth":3788,"giftPoint":3788,"usePointLimit":0,"subTitle":"AI智慧全面屏 6GB +64GB 亮黑色 全网通版 移动联通电信4G手机 双卡双待手机 双卡双待","originalPrice":4288.00,"stock":1000,"lowStock":0,"unit":"件","weight":0.00,"previewStatus":1,"serviceIds":"2,3,1","keywords":"","note":"","albumPics":"http://macro-oss.oss-cn-shenzhen.aliyuncs.com/mall/images/20180607/5ab46a3cN616bdc41.jpg,http://macro-oss.oss-cn-shenzhen.aliyuncs.com/mall/images/20180607/5ac1bf5fN2522b9dc.jpg","detailTitle":"","promotionStartTime":"2023-01-10T07:49:38.000+00:00","promotionEndTime":"2023-01-30T16:00:00.000+00:00","promotionPerLimit":0,"promotionType":1,"brandName":"华为","productCategoryName":"手机通讯"},{"id":27,"brandId":6,"productCategoryId":19,"feightTemplateId":0,"productAttributeCategoryId":3,"name":"小米8 全面屏游戏智能手机 6GB+64GB 黑色 全网通4G 双卡双待","pic":"http://macro-oss.oss-cn-shenzhen.aliyuncs.com/mall/images/20180615/xiaomi.jpg","productSn":"7437788","deleteStatus":0,"publishStatus":1,"newStatus":1,"recommandStatus":1,"verifyStatus":0,"sort":0,"sale":99,"price":2699.00,"giftGrowth":2699,"giftPoint":2699,"usePointLimit":0,"subTitle":"骁龙845处理器，红外人脸解锁，AI变焦双摄，AI语音助手小米6X低至1299，点击抢购","originalPrice":2699.00,"stock":100,"lowStock":0,"unit":"","weight":0.00,"previewStatus":0,"serviceIds":"1","keywords":"","note":"","albumPics":"","detailTitle":"","promotionPerLimit":0,"promotionType":3,"brandName":"小米","productCategoryName":"手机通讯"},{"id":28,"brandId":6,"productCategoryId":19,"feightTemplateId":0,"productAttributeCategoryId":3,"name":"小米 红米5A 全网通版 3GB+32GB 香槟金 移动联通电信4G手机 双卡双待","pic":"http://macro-oss.oss-cn-shenzhen.aliyuncs.com/mall/images/20180615/5a9d248cN071f4959.jpg","productSn":"7437789","deleteStatus":0,"publishStatus":1,"newStatus":1,"recommandStatus":1,"verifyStatus":0,"sort":0,"sale":98,"price":649.00,"giftGrowth":649,"giftPoint":649,"usePointLimit":0,"subTitle":"8天超长待机，137g轻巧机身，高通骁龙处理器小米6X低至1299，点击抢购","originalPrice":649.00,"stock":100,"lowStock":0,"unit":"","weight":0.00,"previewStatus":0,"serviceIds":"","keywords":"","note":"","albumPics":"","detailTitle":"","promotionPerLimit":0,"promotionType":4,"brandName":"小米","productCategoryName":"手机通讯"},{"id":29,"brandId":51,"productCategoryId":19,"feightTemplateId":0,"productAttributeCategoryId":3,"name":"Apple iPhone 8 Plus 64GB 红色特别版 移动联通电信4G手机","pic":"http://macro-oss.oss-cn-shenzhen.aliyuncs.com/mall/images/20180615/5acc5248N6a5f81cd.jpg","productSn":"7437799","deleteStatus":0,"publishStatus":1,"newStatus":1,"recommandStatus":1,"verifyStatus":0,"sort":0,"sale":97,"price":5499.00,"promotionPrice":4799.00,"giftGrowth":5499,"giftPoint":5499,"usePointLimit":0,"subTitle":"【限时限量抢购】Apple产品年中狂欢节，好物尽享，美在智慧！速来 >> 勾选[保障服务][原厂保2年]，获得AppleCare+全方位服务计划，原厂延保售后无忧。","originalPrice":5499.00,"stock":100,"lowStock":0,"unit":"","weight":0.00,"previewStatus":0,"serviceIds":"1,2,3","keywords":"","note":"","albumPics":"","detailTitle":"","promotionStartTime":"2020-05-04T07:12:54.000+00:00","promotionEndTime":"2020-05-29T16:00:00.000+00:00","promotionPerLimit":0,"promotionType":1,"brandName":"苹果","productCategoryName":"手机通讯"}]}
+INFO - 2025-11-21 16:39:50,340 - apiutil.py:154 -[apiutil:extract_data] - 提取接口的返回值：
+INFO - 2025-11-21 16:39:50,341 - assertions.py:170 -[assertions:assert_result] - yaml文件预期结果：[{'contains': {'code': 200}}]
+ERROR - 2025-11-21 16:39:50,342 - assertions.py:194 -[assertions:assert_result] - 接口断言异常，请检查yaml预期结果值是否正确填写!
+ERROR - 2025-11-21 16:39:50,342 - apiutil.py:115 -[apiutil:specification_yaml] - 'int' object has no attribute 'upper'
+INFO - 2025-11-21 16:39:50,682 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-11-21 16:39:50,683 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-11-21 16:39:50,687 - sendrequest.py:135 -[sendrequest:run_main] - 接口名称：商品详情
+INFO - 2025-11-21 16:39:50,687 - sendrequest.py:136 -[sendrequest:run_main] - 请求地址：http://124.222.183.96:8085/product/detail/${get_extract_data(productId)}
+INFO - 2025-11-21 16:39:50,687 - sendrequest.py:137 -[sendrequest:run_main] - 请求方式：get
+INFO - 2025-11-21 16:39:50,687 - sendrequest.py:138 -[sendrequest:run_main] - 测试用例名称：获取商品详情
+INFO - 2025-11-21 16:39:50,687 - sendrequest.py:139 -[sendrequest:run_main] - 请求头：{'Authorization': 'Bearer  eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJtZW1iZXIiLCJjcmVhdGVkIjoxNzYzNzE0MzkwMTkzLCJleHAiOjE3NjQzMTkxOTB9.roeS-E65B3nRyh1ArTiAJhLaQ9STt1dADvRe8ZKX8AUSOB9KF521fcnQyUi1WkW9VSvBtLsg8BdAhRPM6vXTAQ'}
+INFO - 2025-11-21 16:39:50,687 - sendrequest.py:140 -[sendrequest:run_main] - Cookie：None
+INFO - 2025-11-21 16:39:50,688 - sendrequest.py:150 -[sendrequest:run_main] - 请求参数：{'params': '{}'}
+INFO - 2025-11-21 16:39:50,731 - sendrequest.py:108 -[sendrequest:send_request] - 接口返回信息：{"timestamp":"2025-11-21T08:39:50.663+00:00","status":400,"error":"Bad Request","path":"/product/detail/$%7Bget_extract_data(productId)%7D"}
+INFO - 2025-11-21 16:39:50,731 - assertions.py:170 -[assertions:assert_result] - yaml文件预期结果：[{'contains': {'code': 200}}]
+ERROR - 2025-11-21 16:39:50,731 - assertions.py:194 -[assertions:assert_result] - 接口断言异常，请检查yaml预期结果值是否正确填写!
+ERROR - 2025-11-21 16:39:50,731 - apiutil.py:115 -[apiutil:specification_yaml] - 'bool' object is not subscriptable
+INFO - 2025-11-21 16:39:50,744 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-11-21 16:40:06,987 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-11-21 16:40:06,989 - sendrequest.py:135 -[sendrequest:run_main] - 接口名称：用户登录
+INFO - 2025-11-21 16:40:06,989 - sendrequest.py:136 -[sendrequest:run_main] - 请求地址：http://124.222.183.96:8085/sso/login
+INFO - 2025-11-21 16:40:06,989 - sendrequest.py:137 -[sendrequest:run_main] - 请求方式：post
+INFO - 2025-11-21 16:40:06,989 - sendrequest.py:138 -[sendrequest:run_main] - 测试用例名称：正常登录_获取token
+INFO - 2025-11-21 16:40:06,989 - sendrequest.py:139 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2025-11-21 16:40:06,989 - sendrequest.py:140 -[sendrequest:run_main] - Cookie：None
+INFO - 2025-11-21 16:40:06,989 - sendrequest.py:144 -[sendrequest:run_main] - 请求参数：{'data': {'username': 'member', 'password': 'member123'}}
+INFO - 2025-11-21 16:40:07,112 - sendrequest.py:108 -[sendrequest:send_request] - 接口返回信息：{"code":200,"message":"操作成功","data":{"tokenHead":"Bearer ","token":"eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJtZW1iZXIiLCJjcmVhdGVkIjoxNzYzNzE0NDA3MDQ0LCJleHAiOjE3NjQzMTkyMDd9.jxwHbSyEA1oIUWfcPPKiPtpiXG72y0VkQbkBNJfAnMwcZC5ViXxIsnngXrOoWNlX7Esvt2cJUXQc5E8t0MnGsQ"}}
+INFO - 2025-11-21 16:40:07,113 - apiutil.py:154 -[apiutil:extract_data] - 提取接口的返回值：
+INFO - 2025-11-21 16:40:07,114 - apiutil.py:154 -[apiutil:extract_data] - 提取接口的返回值：
+INFO - 2025-11-21 16:40:07,115 - assertions.py:170 -[assertions:assert_result] - yaml文件预期结果：[{'status_code': 200}]
+ERROR - 2025-11-21 16:40:07,115 - assertions.py:191 -[assertions:assert_result] - 不支持此种断言方式
+INFO - 2025-11-21 16:40:07,115 - assertions.py:198 -[assertions:assert_result] - 测试成功
+INFO - 2025-11-21 16:40:07,115 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-11-21 16:40:07,116 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-11-21 16:40:07,120 - sendrequest.py:135 -[sendrequest:run_main] - 接口名称：推荐商品列表
+INFO - 2025-11-21 16:40:07,120 - sendrequest.py:136 -[sendrequest:run_main] - 请求地址：http://124.222.183.96:8085/home/recommendProductList
+INFO - 2025-11-21 16:40:07,120 - sendrequest.py:137 -[sendrequest:run_main] - 请求方式：get
+INFO - 2025-11-21 16:40:07,120 - sendrequest.py:138 -[sendrequest:run_main] - 测试用例名称：获取推荐商品_提取商品ID
+INFO - 2025-11-21 16:40:07,120 - sendrequest.py:139 -[sendrequest:run_main] - 请求头：{'Authorization': 'Bearer  eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJtZW1iZXIiLCJjcmVhdGVkIjoxNzYzNzE0NDA3MDQ0LCJleHAiOjE3NjQzMTkyMDd9.jxwHbSyEA1oIUWfcPPKiPtpiXG72y0VkQbkBNJfAnMwcZC5ViXxIsnngXrOoWNlX7Esvt2cJUXQc5E8t0MnGsQ'}
+INFO - 2025-11-21 16:40:07,120 - sendrequest.py:140 -[sendrequest:run_main] - Cookie：None
+INFO - 2025-11-21 16:40:07,121 - sendrequest.py:150 -[sendrequest:run_main] - 请求参数：{'params': {'pageSize': 4, 'pageNum': 1}}
+INFO - 2025-11-21 16:40:07,201 - sendrequest.py:108 -[sendrequest:send_request] - 接口返回信息：{"code":200,"message":"操作成功","data":[{"id":26,"brandId":3,"productCategoryId":19,"feightTemplateId":0,"productAttributeCategoryId":3,"name":"华为 HUAWEI P20 ","pic":"http://macro-oss.oss-cn-shenzhen.aliyuncs.com/mall/images/20180607/5ac1bf58Ndefaac16.jpg","productSn":"6946605","deleteStatus":0,"publishStatus":1,"newStatus":1,"recommandStatus":1,"verifyStatus":0,"sort":100,"sale":100,"price":3788.00,"promotionPrice":3659.00,"giftGrowth":3788,"giftPoint":3788,"usePointLimit":0,"subTitle":"AI智慧全面屏 6GB +64GB 亮黑色 全网通版 移动联通电信4G手机 双卡双待手机 双卡双待","originalPrice":4288.00,"stock":1000,"lowStock":0,"unit":"件","weight":0.00,"previewStatus":1,"serviceIds":"2,3,1","keywords":"","note":"","albumPics":"http://macro-oss.oss-cn-shenzhen.aliyuncs.com/mall/images/20180607/5ab46a3cN616bdc41.jpg,http://macro-oss.oss-cn-shenzhen.aliyuncs.com/mall/images/20180607/5ac1bf5fN2522b9dc.jpg","detailTitle":"","promotionStartTime":"2023-01-10T07:49:38.000+00:00","promotionEndTime":"2023-01-30T16:00:00.000+00:00","promotionPerLimit":0,"promotionType":1,"brandName":"华为","productCategoryName":"手机通讯"},{"id":27,"brandId":6,"productCategoryId":19,"feightTemplateId":0,"productAttributeCategoryId":3,"name":"小米8 全面屏游戏智能手机 6GB+64GB 黑色 全网通4G 双卡双待","pic":"http://macro-oss.oss-cn-shenzhen.aliyuncs.com/mall/images/20180615/xiaomi.jpg","productSn":"7437788","deleteStatus":0,"publishStatus":1,"newStatus":1,"recommandStatus":1,"verifyStatus":0,"sort":0,"sale":99,"price":2699.00,"giftGrowth":2699,"giftPoint":2699,"usePointLimit":0,"subTitle":"骁龙845处理器，红外人脸解锁，AI变焦双摄，AI语音助手小米6X低至1299，点击抢购","originalPrice":2699.00,"stock":100,"lowStock":0,"unit":"","weight":0.00,"previewStatus":0,"serviceIds":"1","keywords":"","note":"","albumPics":"","detailTitle":"","promotionPerLimit":0,"promotionType":3,"brandName":"小米","productCategoryName":"手机通讯"},{"id":28,"brandId":6,"productCategoryId":19,"feightTemplateId":0,"productAttributeCategoryId":3,"name":"小米 红米5A 全网通版 3GB+32GB 香槟金 移动联通电信4G手机 双卡双待","pic":"http://macro-oss.oss-cn-shenzhen.aliyuncs.com/mall/images/20180615/5a9d248cN071f4959.jpg","productSn":"7437789","deleteStatus":0,"publishStatus":1,"newStatus":1,"recommandStatus":1,"verifyStatus":0,"sort":0,"sale":98,"price":649.00,"giftGrowth":649,"giftPoint":649,"usePointLimit":0,"subTitle":"8天超长待机，137g轻巧机身，高通骁龙处理器小米6X低至1299，点击抢购","originalPrice":649.00,"stock":100,"lowStock":0,"unit":"","weight":0.00,"previewStatus":0,"serviceIds":"","keywords":"","note":"","albumPics":"","detailTitle":"","promotionPerLimit":0,"promotionType":4,"brandName":"小米","productCategoryName":"手机通讯"},{"id":29,"brandId":51,"productCategoryId":19,"feightTemplateId":0,"productAttributeCategoryId":3,"name":"Apple iPhone 8 Plus 64GB 红色特别版 移动联通电信4G手机","pic":"http://macro-oss.oss-cn-shenzhen.aliyuncs.com/mall/images/20180615/5acc5248N6a5f81cd.jpg","productSn":"7437799","deleteStatus":0,"publishStatus":1,"newStatus":1,"recommandStatus":1,"verifyStatus":0,"sort":0,"sale":97,"price":5499.00,"promotionPrice":4799.00,"giftGrowth":5499,"giftPoint":5499,"usePointLimit":0,"subTitle":"【限时限量抢购】Apple产品年中狂欢节，好物尽享，美在智慧！速来 >> 勾选[保障服务][原厂保2年]，获得AppleCare+全方位服务计划，原厂延保售后无忧。","originalPrice":5499.00,"stock":100,"lowStock":0,"unit":"","weight":0.00,"previewStatus":0,"serviceIds":"1,2,3","keywords":"","note":"","albumPics":"","detailTitle":"","promotionStartTime":"2020-05-04T07:12:54.000+00:00","promotionEndTime":"2020-05-29T16:00:00.000+00:00","promotionPerLimit":0,"promotionType":1,"brandName":"苹果","productCategoryName":"手机通讯"}]}
+INFO - 2025-11-21 16:40:07,202 - apiutil.py:154 -[apiutil:extract_data] - 提取接口的返回值：
+INFO - 2025-11-21 16:40:07,203 - assertions.py:170 -[assertions:assert_result] - yaml文件预期结果：[{'status_code': 200}]
+ERROR - 2025-11-21 16:40:07,203 - assertions.py:191 -[assertions:assert_result] - 不支持此种断言方式
+INFO - 2025-11-21 16:40:07,203 - assertions.py:198 -[assertions:assert_result] - 测试成功
+INFO - 2025-11-21 16:40:07,204 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-11-21 16:40:07,204 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-11-21 16:40:07,209 - sendrequest.py:135 -[sendrequest:run_main] - 接口名称：商品详情
+INFO - 2025-11-21 16:40:07,210 - sendrequest.py:136 -[sendrequest:run_main] - 请求地址：http://124.222.183.96:8085/product/detail/${get_extract_data(productId)}
+INFO - 2025-11-21 16:40:07,210 - sendrequest.py:137 -[sendrequest:run_main] - 请求方式：get
+INFO - 2025-11-21 16:40:07,210 - sendrequest.py:138 -[sendrequest:run_main] - 测试用例名称：获取商品详情
+INFO - 2025-11-21 16:40:07,210 - sendrequest.py:139 -[sendrequest:run_main] - 请求头：{'Authorization': 'Bearer  eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJtZW1iZXIiLCJjcmVhdGVkIjoxNzYzNzE0NDA3MDQ0LCJleHAiOjE3NjQzMTkyMDd9.jxwHbSyEA1oIUWfcPPKiPtpiXG72y0VkQbkBNJfAnMwcZC5ViXxIsnngXrOoWNlX7Esvt2cJUXQc5E8t0MnGsQ'}
+INFO - 2025-11-21 16:40:07,210 - sendrequest.py:140 -[sendrequest:run_main] - Cookie：None
+INFO - 2025-11-21 16:40:07,210 - sendrequest.py:150 -[sendrequest:run_main] - 请求参数：{'params': '{}'}
+INFO - 2025-11-21 16:40:07,260 - sendrequest.py:108 -[sendrequest:send_request] - 接口返回信息：{"timestamp":"2025-11-21T08:40:07.194+00:00","status":400,"error":"Bad Request","path":"/product/detail/$%7Bget_extract_data(productId)%7D"}
+INFO - 2025-11-21 16:40:07,260 - assertions.py:170 -[assertions:assert_result] - yaml文件预期结果：[{'contains': {'code': 200}}]
+ERROR - 2025-11-21 16:40:07,260 - assertions.py:194 -[assertions:assert_result] - 接口断言异常，请检查yaml预期结果值是否正确填写!
+ERROR - 2025-11-21 16:40:07,260 - apiutil.py:115 -[apiutil:specification_yaml] - 'bool' object is not subscriptable
+INFO - 2025-11-21 16:40:07,603 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-11-21 16:40:28,744 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-11-21 16:40:28,746 - sendrequest.py:135 -[sendrequest:run_main] - 接口名称：用户登录
+INFO - 2025-11-21 16:40:28,746 - sendrequest.py:136 -[sendrequest:run_main] - 请求地址：http://124.222.183.96:8085/sso/login
+INFO - 2025-11-21 16:40:28,746 - sendrequest.py:137 -[sendrequest:run_main] - 请求方式：post
+INFO - 2025-11-21 16:40:28,746 - sendrequest.py:138 -[sendrequest:run_main] - 测试用例名称：正常登录_获取token
+INFO - 2025-11-21 16:40:28,746 - sendrequest.py:139 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2025-11-21 16:40:28,746 - sendrequest.py:140 -[sendrequest:run_main] - Cookie：None
+INFO - 2025-11-21 16:40:28,747 - sendrequest.py:144 -[sendrequest:run_main] - 请求参数：{'data': {'username': 'member', 'password': 'member123'}}
+INFO - 2025-11-21 16:40:28,864 - sendrequest.py:108 -[sendrequest:send_request] - 接口返回信息：{"code":200,"message":"操作成功","data":{"tokenHead":"Bearer ","token":"eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJtZW1iZXIiLCJjcmVhdGVkIjoxNzYzNzE0NDI4Nzk1LCJleHAiOjE3NjQzMTkyMjh9.aSIJpx6lZGsUb-B2HOX52suGXBOgsI3wFxEYOJrKzyW1yNgGurX-ehHWBo8JTqpJhXHlE_iZfLmz0QVIL11bKQ"}}
+INFO - 2025-11-21 16:40:28,864 - apiutil.py:154 -[apiutil:extract_data] - 提取接口的返回值：
+INFO - 2025-11-21 16:40:28,865 - apiutil.py:154 -[apiutil:extract_data] - 提取接口的返回值：
+INFO - 2025-11-21 16:40:28,866 - assertions.py:170 -[assertions:assert_result] - yaml文件预期结果：[{'status_code': 200}]
+ERROR - 2025-11-21 16:40:28,866 - assertions.py:191 -[assertions:assert_result] - 不支持此种断言方式
+INFO - 2025-11-21 16:40:28,866 - assertions.py:198 -[assertions:assert_result] - 测试成功
+INFO - 2025-11-21 16:40:28,866 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-11-21 16:40:28,867 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-11-21 16:40:28,871 - sendrequest.py:135 -[sendrequest:run_main] - 接口名称：推荐商品列表
+INFO - 2025-11-21 16:40:28,871 - sendrequest.py:136 -[sendrequest:run_main] - 请求地址：http://124.222.183.96:8085/home/recommendProductList
+INFO - 2025-11-21 16:40:28,871 - sendrequest.py:137 -[sendrequest:run_main] - 请求方式：get
+INFO - 2025-11-21 16:40:28,872 - sendrequest.py:138 -[sendrequest:run_main] - 测试用例名称：获取推荐商品_提取商品ID
+INFO - 2025-11-21 16:40:28,872 - sendrequest.py:139 -[sendrequest:run_main] - 请求头：{'Authorization': 'Bearer  eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJtZW1iZXIiLCJjcmVhdGVkIjoxNzYzNzE0NDI4Nzk1LCJleHAiOjE3NjQzMTkyMjh9.aSIJpx6lZGsUb-B2HOX52suGXBOgsI3wFxEYOJrKzyW1yNgGurX-ehHWBo8JTqpJhXHlE_iZfLmz0QVIL11bKQ'}
+INFO - 2025-11-21 16:40:28,872 - sendrequest.py:140 -[sendrequest:run_main] - Cookie：None
+INFO - 2025-11-21 16:40:28,872 - sendrequest.py:150 -[sendrequest:run_main] - 请求参数：{'params': {'pageSize': 4, 'pageNum': 1}}
+INFO - 2025-11-21 16:40:28,932 - sendrequest.py:108 -[sendrequest:send_request] - 接口返回信息：{"code":200,"message":"操作成功","data":[{"id":26,"brandId":3,"productCategoryId":19,"feightTemplateId":0,"productAttributeCategoryId":3,"name":"华为 HUAWEI P20 ","pic":"http://macro-oss.oss-cn-shenzhen.aliyuncs.com/mall/images/20180607/5ac1bf58Ndefaac16.jpg","productSn":"6946605","deleteStatus":0,"publishStatus":1,"newStatus":1,"recommandStatus":1,"verifyStatus":0,"sort":100,"sale":100,"price":3788.00,"promotionPrice":3659.00,"giftGrowth":3788,"giftPoint":3788,"usePointLimit":0,"subTitle":"AI智慧全面屏 6GB +64GB 亮黑色 全网通版 移动联通电信4G手机 双卡双待手机 双卡双待","originalPrice":4288.00,"stock":1000,"lowStock":0,"unit":"件","weight":0.00,"previewStatus":1,"serviceIds":"2,3,1","keywords":"","note":"","albumPics":"http://macro-oss.oss-cn-shenzhen.aliyuncs.com/mall/images/20180607/5ab46a3cN616bdc41.jpg,http://macro-oss.oss-cn-shenzhen.aliyuncs.com/mall/images/20180607/5ac1bf5fN2522b9dc.jpg","detailTitle":"","promotionStartTime":"2023-01-10T07:49:38.000+00:00","promotionEndTime":"2023-01-30T16:00:00.000+00:00","promotionPerLimit":0,"promotionType":1,"brandName":"华为","productCategoryName":"手机通讯"},{"id":27,"brandId":6,"productCategoryId":19,"feightTemplateId":0,"productAttributeCategoryId":3,"name":"小米8 全面屏游戏智能手机 6GB+64GB 黑色 全网通4G 双卡双待","pic":"http://macro-oss.oss-cn-shenzhen.aliyuncs.com/mall/images/20180615/xiaomi.jpg","productSn":"7437788","deleteStatus":0,"publishStatus":1,"newStatus":1,"recommandStatus":1,"verifyStatus":0,"sort":0,"sale":99,"price":2699.00,"giftGrowth":2699,"giftPoint":2699,"usePointLimit":0,"subTitle":"骁龙845处理器，红外人脸解锁，AI变焦双摄，AI语音助手小米6X低至1299，点击抢购","originalPrice":2699.00,"stock":100,"lowStock":0,"unit":"","weight":0.00,"previewStatus":0,"serviceIds":"1","keywords":"","note":"","albumPics":"","detailTitle":"","promotionPerLimit":0,"promotionType":3,"brandName":"小米","productCategoryName":"手机通讯"},{"id":28,"brandId":6,"productCategoryId":19,"feightTemplateId":0,"productAttributeCategoryId":3,"name":"小米 红米5A 全网通版 3GB+32GB 香槟金 移动联通电信4G手机 双卡双待","pic":"http://macro-oss.oss-cn-shenzhen.aliyuncs.com/mall/images/20180615/5a9d248cN071f4959.jpg","productSn":"7437789","deleteStatus":0,"publishStatus":1,"newStatus":1,"recommandStatus":1,"verifyStatus":0,"sort":0,"sale":98,"price":649.00,"giftGrowth":649,"giftPoint":649,"usePointLimit":0,"subTitle":"8天超长待机，137g轻巧机身，高通骁龙处理器小米6X低至1299，点击抢购","originalPrice":649.00,"stock":100,"lowStock":0,"unit":"","weight":0.00,"previewStatus":0,"serviceIds":"","keywords":"","note":"","albumPics":"","detailTitle":"","promotionPerLimit":0,"promotionType":4,"brandName":"小米","productCategoryName":"手机通讯"},{"id":29,"brandId":51,"productCategoryId":19,"feightTemplateId":0,"productAttributeCategoryId":3,"name":"Apple iPhone 8 Plus 64GB 红色特别版 移动联通电信4G手机","pic":"http://macro-oss.oss-cn-shenzhen.aliyuncs.com/mall/images/20180615/5acc5248N6a5f81cd.jpg","productSn":"7437799","deleteStatus":0,"publishStatus":1,"newStatus":1,"recommandStatus":1,"verifyStatus":0,"sort":0,"sale":97,"price":5499.00,"promotionPrice":4799.00,"giftGrowth":5499,"giftPoint":5499,"usePointLimit":0,"subTitle":"【限时限量抢购】Apple产品年中狂欢节，好物尽享，美在智慧！速来 >> 勾选[保障服务][原厂保2年]，获得AppleCare+全方位服务计划，原厂延保售后无忧。","originalPrice":5499.00,"stock":100,"lowStock":0,"unit":"","weight":0.00,"previewStatus":0,"serviceIds":"1,2,3","keywords":"","note":"","albumPics":"","detailTitle":"","promotionStartTime":"2020-05-04T07:12:54.000+00:00","promotionEndTime":"2020-05-29T16:00:00.000+00:00","promotionPerLimit":0,"promotionType":1,"brandName":"苹果","productCategoryName":"手机通讯"}]}
+INFO - 2025-11-21 16:40:28,933 - apiutil.py:154 -[apiutil:extract_data] - 提取接口的返回值：
+INFO - 2025-11-21 16:40:28,934 - assertions.py:170 -[assertions:assert_result] - yaml文件预期结果：[{'status_code': 200}]
+ERROR - 2025-11-21 16:40:28,934 - assertions.py:191 -[assertions:assert_result] - 不支持此种断言方式
+INFO - 2025-11-21 16:40:28,934 - assertions.py:198 -[assertions:assert_result] - 测试成功
+INFO - 2025-11-21 16:40:28,934 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2025-11-21 16:40:28,935 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2025-11-21 16:40:28,940 - sendrequest.py:135 -[sendrequest:run_main] - 接口名称：商品详情
+INFO - 2025-11-21 16:40:28,940 - sendrequest.py:136 -[sendrequest:run_main] - 请求地址：http://124.222.183.96:8085/product/detail/${get_extract_data(productId)}
+INFO - 2025-11-21 16:40:28,940 - sendrequest.py:137 -[sendrequest:run_main] - 请求方式：get
+INFO - 2025-11-21 16:40:28,940 - sendrequest.py:138 -[sendrequest:run_main] - 测试用例名称：获取商品详情
+INFO - 2025-11-21 16:40:28,941 - sendrequest.py:139 -[sendrequest:run_main] - 请求头：{'Authorization': 'Bearer  eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJtZW1iZXIiLCJjcmVhdGVkIjoxNzYzNzE0NDI4Nzk1LCJleHAiOjE3NjQzMTkyMjh9.aSIJpx6lZGsUb-B2HOX52suGXBOgsI3wFxEYOJrKzyW1yNgGurX-ehHWBo8JTqpJhXHlE_iZfLmz0QVIL11bKQ'}
+INFO - 2025-11-21 16:40:28,941 - sendrequest.py:140 -[sendrequest:run_main] - Cookie：None
+INFO - 2025-11-21 16:40:28,941 - sendrequest.py:150 -[sendrequest:run_main] - 请求参数：{'params': '{}'}
+INFO - 2025-11-21 16:40:29,005 - sendrequest.py:108 -[sendrequest:send_request] - 接口返回信息：{"timestamp":"2025-11-21T08:40:28.938+00:00","status":400,"error":"Bad Request","path":"/product/detail/$%7Bget_extract_data(productId)%7D"}
+INFO - 2025-11-21 16:40:29,005 - assertions.py:170 -[assertions:assert_result] - yaml文件预期结果：[{'status_code': 200}]
+ERROR - 2025-11-21 16:40:29,005 - assertions.py:191 -[assertions:assert_result] - 不支持此种断言方式
+INFO - 2025-11-21 16:40:29,005 - assertions.py:198 -[assertions:assert_result] - 测试成功
+INFO - 2025-11-21 16:40:29,006 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------

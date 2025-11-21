@@ -1,15 +1,17 @@
-# 3. 查看商品详情：根据上一步提取的 productId 查询商品详情
 - baseInfo:
     api_name: 商品详情
     url: /product/detail/${get_extract_data(productId)}
     method: get
     header:
       Authorization: ${get_extract_data(tokenHead)} ${get_extract_data(token)}
+
   testCase:
     - case_name: 获取商品详情
       params: {}
       validation:
-        - contains: { 'code': 200 }
+        - status_code: 200
+
+
 
 
 

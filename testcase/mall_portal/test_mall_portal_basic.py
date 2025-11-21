@@ -22,14 +22,14 @@ class TestMallPortalBasic:
     @allure.story(next(c_id) + "推荐商品列表")
     @pytest.mark.run(order=2)
     @pytest.mark.parametrize('base_info,testcase', get_testcase_yaml('./testcase/mall_portal/mall_list.yaml'))
-    def test_logging(self, base_info, testcase):
+    def test_list(self, base_info, testcase):
         allure.dynamic.title(testcase['case_name'])
         RequestBase().specification_yaml(base_info, testcase)
 
     @allure.story(next(c_id) + "商品细节")
     @pytest.mark.run(order=3)
-    @pytest.mark.parametrize('base_info,testcase', get_testcase_yaml('./testcase/mall_detail/mall_logging.yaml'))
-    def test_logging(self, base_info, testcase):
+    @pytest.mark.parametrize('base_info,testcase', get_testcase_yaml('./testcase/mall_portal/mall_detail.yaml'))
+    def test_detail(self, base_info, testcase):
         allure.dynamic.title(testcase['case_name'])
         RequestBase().specification_yaml(base_info, testcase)
 
